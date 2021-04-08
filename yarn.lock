@@ -23,10 +23,10 @@
   dependencies:
     "@babel/highlight" "^7.12.13"
 
-"@babel/compat-data@^7.12.1", "@babel/compat-data@^7.13.0", "@babel/compat-data@^7.13.12", "@babel/compat-data@^7.13.8":
-  version "7.13.12"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/compat-data/-/compat-data-7.13.12.tgz#a8a5ccac19c200f9dd49624cac6e19d7be1236a1"
-  integrity sha1-qKXMrBnCAPndSWJMrG4Z174SNqE=
+"@babel/compat-data@^7.12.1", "@babel/compat-data@^7.13.11", "@babel/compat-data@^7.13.12", "@babel/compat-data@^7.13.15", "@babel/compat-data@^7.13.8":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/compat-data/-/compat-data-7.13.15.tgz#7e8eea42d0b64fda2b375b22d06c605222e848f4"
+  integrity sha1-fo7qQtC2T9orN1si0GxgUiLoSPQ=
 
 "@babel/core@7.12.3":
   version "7.12.3"
@@ -50,19 +50,19 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.12.3", "@babel/core@^7.7.5", "@babel/core@^7.8.4":
-  version "7.13.14"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/core/-/core-7.13.14.tgz#8e46ebbaca460a63497c797e574038ab04ae6d06"
-  integrity sha1-jkbruspGCmNJfHl+V0A4qwSubQY=
+"@babel/core@^7.1.0", "@babel/core@^7.12.3", "@babel/core@^7.13.10", "@babel/core@^7.7.5", "@babel/core@^7.8.4":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/core/-/core-7.13.15.tgz#a6d40917df027487b54312202a06812c4f7792d0"
+  integrity sha1-ptQJF98CdIe1QxIgKgaBLE93ktA=
   dependencies:
     "@babel/code-frame" "^7.12.13"
     "@babel/generator" "^7.13.9"
     "@babel/helper-compilation-targets" "^7.13.13"
     "@babel/helper-module-transforms" "^7.13.14"
     "@babel/helpers" "^7.13.10"
-    "@babel/parser" "^7.13.13"
+    "@babel/parser" "^7.13.15"
     "@babel/template" "^7.12.13"
-    "@babel/traverse" "^7.13.13"
+    "@babel/traverse" "^7.13.15"
     "@babel/types" "^7.13.14"
     convert-source-map "^1.7.0"
     debug "^4.1.0"
@@ -80,7 +80,7 @@
     jsesc "^2.5.1"
     source-map "^0.5.0"
 
-"@babel/helper-annotate-as-pure@^7.10.4", "@babel/helper-annotate-as-pure@^7.12.13":
+"@babel/helper-annotate-as-pure@^7.10.4", "@babel/helper-annotate-as-pure@^7.12.13", "@babel/helper-annotate-as-pure@^7.8.3":
   version "7.12.13"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.12.13.tgz#0f58e86dfc4bb3b1fcd7db806570e177d439b6ab"
   integrity sha1-D1jobfxLs7H819uAZXDhd9Q5tqs=
@@ -95,7 +95,7 @@
     "@babel/helper-explode-assignable-expression" "^7.12.13"
     "@babel/types" "^7.12.13"
 
-"@babel/helper-compilation-targets@^7.12.1", "@babel/helper-compilation-targets@^7.13.0", "@babel/helper-compilation-targets@^7.13.10", "@babel/helper-compilation-targets@^7.13.13", "@babel/helper-compilation-targets@^7.13.8":
+"@babel/helper-compilation-targets@^7.12.1", "@babel/helper-compilation-targets@^7.13.0", "@babel/helper-compilation-targets@^7.13.13", "@babel/helper-compilation-targets@^7.13.8":
   version "7.13.13"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/helper-compilation-targets/-/helper-compilation-targets-7.13.13.tgz#2b2972a0926474853f41e4adbc69338f520600e5"
   integrity sha1-KylyoJJkdIU/QeStvGkzj1IGAOU=
@@ -105,7 +105,7 @@
     browserslist "^4.14.5"
     semver "^6.3.0"
 
-"@babel/helper-create-class-features-plugin@^7.12.1", "@babel/helper-create-class-features-plugin@^7.13.0":
+"@babel/helper-create-class-features-plugin@^7.12.1", "@babel/helper-create-class-features-plugin@^7.13.0", "@babel/helper-create-class-features-plugin@^7.13.11":
   version "7.13.11"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.13.11.tgz#30d30a005bca2c953f5653fc25091a492177f4f6"
   integrity sha1-MNMKAFvKLJU/VlP8JQkaSSF39PY=
@@ -124,10 +124,10 @@
     "@babel/helper-annotate-as-pure" "^7.12.13"
     regexpu-core "^4.7.1"
 
-"@babel/helper-define-polyfill-provider@^0.1.5":
-  version "0.1.5"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.1.5.tgz#3c2f91b7971b9fc11fe779c945c014065dea340e"
-  integrity sha1-PC+Rt5cbn8Ef53nJRcAUBl3qNA4=
+"@babel/helper-define-polyfill-provider@^0.2.0":
+  version "0.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.2.0.tgz#a640051772045fedaaecc6f0c6c69f02bdd34bf1"
+  integrity sha1-pkAFF3IEX+2q7MbwxsafAr3TS/E=
   dependencies:
     "@babel/helper-compilation-targets" "^7.13.0"
     "@babel/helper-module-imports" "^7.12.13"
@@ -176,7 +176,7 @@
   dependencies:
     "@babel/types" "^7.13.12"
 
-"@babel/helper-module-imports@^7.0.0", "@babel/helper-module-imports@^7.12.1", "@babel/helper-module-imports@^7.12.13", "@babel/helper-module-imports@^7.13.12":
+"@babel/helper-module-imports@^7.0.0", "@babel/helper-module-imports@^7.12.1", "@babel/helper-module-imports@^7.12.13", "@babel/helper-module-imports@^7.13.12", "@babel/helper-module-imports@^7.8.3":
   version "7.13.12"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/helper-module-imports/-/helper-module-imports-7.13.12.tgz#c6a369a6f3621cb25da014078684da9196b61977"
   integrity sha1-xqNppvNiHLJdoBQHhoTakZa2GXc=
@@ -287,10 +287,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.12.13", "@babel/parser@^7.12.3", "@babel/parser@^7.13.13", "@babel/parser@^7.7.0":
-  version "7.13.13"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/parser/-/parser-7.13.13.tgz#42f03862f4aed50461e543270916b47dd501f0df"
-  integrity sha1-QvA4YvSu1QRh5UMnCRa0fdUB8N8=
+"@babel/parser@^7.1.0", "@babel/parser@^7.12.13", "@babel/parser@^7.12.3", "@babel/parser@^7.13.15", "@babel/parser@^7.7.0":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/parser/-/parser-7.13.15.tgz#8e66775fb523599acb6a289e12929fa5ab0954d8"
+  integrity sha1-jmZ3X7UjWZrLaiieEpKfpasJVNg=
 
 "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.13.12":
   version "7.13.12"
@@ -301,10 +301,10 @@
     "@babel/helper-skip-transparent-expression-wrappers" "^7.12.1"
     "@babel/plugin-proposal-optional-chaining" "^7.13.12"
 
-"@babel/plugin-proposal-async-generator-functions@^7.12.1", "@babel/plugin-proposal-async-generator-functions@^7.13.8":
-  version "7.13.8"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.13.8.tgz#87aacb574b3bc4b5603f6fe41458d72a5a2ec4b1"
-  integrity sha1-h6rLV0s7xLVgP2/kFFjXKlouxLE=
+"@babel/plugin-proposal-async-generator-functions@^7.12.1", "@babel/plugin-proposal-async-generator-functions@^7.13.15":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-async-generator-functions/-/plugin-proposal-async-generator-functions-7.13.15.tgz#80e549df273a3b3050431b148c892491df1bcc5b"
+  integrity sha1-gOVJ3yc6OzBQQxsUjIkkkd8bzFs=
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
     "@babel/helper-remap-async-to-generator" "^7.13.0"
@@ -318,7 +318,7 @@
     "@babel/helper-create-class-features-plugin" "^7.12.1"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-proposal-class-properties@^7.12.1", "@babel/plugin-proposal-class-properties@^7.13.0":
+"@babel/plugin-proposal-class-properties@^7.12.1", "@babel/plugin-proposal-class-properties@^7.13.0", "@babel/plugin-proposal-class-properties@^7.8.3":
   version "7.13.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.13.0.tgz#146376000b94efd001e57a40a88a525afaab9f37"
   integrity sha1-FGN2AAuU79AB5XpAqIpSWvqrnzc=
@@ -335,6 +335,15 @@
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/plugin-syntax-decorators" "^7.12.1"
 
+"@babel/plugin-proposal-decorators@^7.8.3":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.13.15.tgz#e91ccfef2dc24dd5bd5dcc9fc9e2557c684ecfb8"
+  integrity sha1-6RzP7y3CTdW9XcyfyeJVfGhOz7g=
+  dependencies:
+    "@babel/helper-create-class-features-plugin" "^7.13.11"
+    "@babel/helper-plugin-utils" "^7.13.0"
+    "@babel/plugin-syntax-decorators" "^7.12.13"
+
 "@babel/plugin-proposal-dynamic-import@^7.12.1", "@babel/plugin-proposal-dynamic-import@^7.13.8":
   version "7.13.8"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-dynamic-import/-/plugin-proposal-dynamic-import-7.13.8.tgz#876a1f6966e1dec332e8c9451afda3bebcdf2e1d"
@@ -342,6 +351,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+
+"@babel/plugin-proposal-export-default-from@^7.8.3":
+  version "7.12.13"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.12.13.tgz#f110284108a9b2b96f01b15b3be9e54c2610a989"
+  integrity sha1-8RAoQQipsrlvAbFbO+nlTCYQqYk=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.12.13"
+    "@babel/plugin-syntax-export-default-from" "^7.12.13"
 
 "@babel/plugin-proposal-export-namespace-from@^7.12.1", "@babel/plugin-proposal-export-namespace-from@^7.12.13":
   version "7.12.13"
@@ -399,7 +416,7 @@
     "@babel/helper-plugin-utils" "^7.12.13"
     "@babel/plugin-syntax-numeric-separator" "^7.10.4"
 
-"@babel/plugin-proposal-object-rest-spread@^7.12.1", "@babel/plugin-proposal-object-rest-spread@^7.13.8":
+"@babel/plugin-proposal-object-rest-spread@^7.12.1", "@babel/plugin-proposal-object-rest-spread@^7.13.8", "@babel/plugin-proposal-object-rest-spread@^7.9.5":
   version "7.13.8"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.13.8.tgz#5d210a4d727d6ce3b18f9de82cc99a3964eed60a"
   integrity sha1-XSEKTXJ9bOOxj53oLMmaOWTu1go=
@@ -427,7 +444,7 @@
     "@babel/helper-skip-transparent-expression-wrappers" "^7.12.1"
     "@babel/plugin-syntax-optional-chaining" "^7.8.0"
 
-"@babel/plugin-proposal-optional-chaining@^7.12.1", "@babel/plugin-proposal-optional-chaining@^7.13.12":
+"@babel/plugin-proposal-optional-chaining@^7", "@babel/plugin-proposal-optional-chaining@^7.12.1", "@babel/plugin-proposal-optional-chaining@^7.13.12":
   version "7.13.12"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.13.12.tgz#ba9feb601d422e0adea6760c2bd6bbb7bfec4866"
   integrity sha1-up/rYB1CLgrepnYMK9a7t7/sSGY=
@@ -473,7 +490,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-syntax-decorators@^7.12.1":
+"@babel/plugin-syntax-decorators@^7.12.1", "@babel/plugin-syntax-decorators@^7.12.13":
   version "7.12.13"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.12.13.tgz#fac829bf3c7ef4a1bc916257b403e58c6bdaf648"
   integrity sha1-+sgpvzx+9KG8kWJXtAPljGva9kg=
@@ -486,6 +503,13 @@
   integrity sha1-Yr+Ysto80h1iYVT8lu5bPLaOrLM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
+
+"@babel/plugin-syntax-export-default-from@^7.12.13":
+  version "7.12.13"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.12.13.tgz#3c807d37efaf0a806f1deb556ccb3b2f562ae9c2"
+  integrity sha1-PIB9N++vCoBvHetVbMs7L1Yq6cI=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-export-namespace-from@^7.8.3":
   version "7.8.3"
@@ -608,7 +632,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-transform-classes@^7.12.1", "@babel/plugin-transform-classes@^7.13.0":
+"@babel/plugin-transform-classes@^7.12.1", "@babel/plugin-transform-classes@^7.13.0", "@babel/plugin-transform-classes@^7.9.5":
   version "7.13.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-classes/-/plugin-transform-classes-7.13.0.tgz#0265155075c42918bf4d3a4053134176ad9b533b"
   integrity sha1-AmUVUHXEKRi/TTpAUxNBdq2bUzs=
@@ -628,7 +652,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
 
-"@babel/plugin-transform-destructuring@^7.12.1", "@babel/plugin-transform-destructuring@^7.13.0":
+"@babel/plugin-transform-destructuring@^7.12.1", "@babel/plugin-transform-destructuring@^7.13.0", "@babel/plugin-transform-destructuring@^7.9.5":
   version "7.13.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.13.0.tgz#c5dce270014d4e1ebb1d806116694c12b7028963"
   integrity sha1-xdzicAFNTh67HYBhFmlMErcCiWM=
@@ -769,7 +793,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-transform-react-constant-elements@^7.12.1":
+"@babel/plugin-transform-react-constant-elements@^7.12.1", "@babel/plugin-transform-react-constant-elements@^7.9.0":
   version "7.13.13"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.13.13.tgz#0208b1d942bf939cd4f7aa5b255d42602aa4a920"
   integrity sha1-Agix2UK/k5zU96pbJV1CYCqkqSA=
@@ -783,7 +807,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-transform-react-display-name@^7.12.1", "@babel/plugin-transform-react-display-name@^7.12.13":
+"@babel/plugin-transform-react-display-name@^7.12.1", "@babel/plugin-transform-react-display-name@^7.12.13", "@babel/plugin-transform-react-display-name@^7.8.3":
   version "7.12.13"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-react-display-name/-/plugin-transform-react-display-name-7.12.13.tgz#c28effd771b276f4647411c9733dbb2d2da954bd"
   integrity sha1-wo7/13GydvRkdBHJcz27LS2pVL0=
@@ -830,10 +854,10 @@
     "@babel/helper-annotate-as-pure" "^7.10.4"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-transform-regenerator@^7.12.1", "@babel/plugin-transform-regenerator@^7.12.13":
-  version "7.12.13"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.12.13.tgz#b628bcc9c85260ac1aeb05b45bde25210194a2f5"
-  integrity sha1-tii8ychSYKwa6wW0W94lIQGUovU=
+"@babel/plugin-transform-regenerator@^7.12.1", "@babel/plugin-transform-regenerator@^7.13.15":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-regenerator/-/plugin-transform-regenerator-7.13.15.tgz#e5eb28945bf8b6563e7f818945f966a8d2997f39"
+  integrity sha1-5esolFv4tlY+f4GJRflmqNKZfzk=
   dependencies:
     regenerator-transform "^0.14.2"
 
@@ -853,6 +877,18 @@
     "@babel/helper-plugin-utils" "^7.10.4"
     resolve "^1.8.1"
     semver "^5.5.1"
+
+"@babel/plugin-transform-runtime@^7.13.10":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.13.15.tgz#2eddf585dd066b84102517e10a577f24f76a9cd7"
+  integrity sha1-Lt31hd0Ga4QQJRfhCld/JPdqnNc=
+  dependencies:
+    "@babel/helper-module-imports" "^7.13.12"
+    "@babel/helper-plugin-utils" "^7.13.0"
+    babel-plugin-polyfill-corejs2 "^0.2.0"
+    babel-plugin-polyfill-corejs3 "^0.2.0"
+    babel-plugin-polyfill-regenerator "^0.2.0"
+    semver "^6.3.0"
 
 "@babel/plugin-transform-shorthand-properties@^7.12.1", "@babel/plugin-transform-shorthand-properties@^7.12.13":
   version "7.12.13"
@@ -986,17 +1022,17 @@
     core-js-compat "^3.6.2"
     semver "^5.5.0"
 
-"@babel/preset-env@^7.12.1", "@babel/preset-env@^7.8.4":
-  version "7.13.12"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/preset-env/-/preset-env-7.13.12.tgz#6dff470478290582ac282fb77780eadf32480237"
-  integrity sha1-bf9HBHgpBYKsKC+3d4Dq3zJIAjc=
+"@babel/preset-env@^7.12.1", "@babel/preset-env@^7.8.4", "@babel/preset-env@^7.9.5":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/preset-env/-/preset-env-7.13.15.tgz#c8a6eb584f96ecba183d3d414a83553a599f478f"
+  integrity sha1-yKbrWE+W7LoYPT1BSoNVOlmfR48=
   dependencies:
-    "@babel/compat-data" "^7.13.12"
-    "@babel/helper-compilation-targets" "^7.13.10"
+    "@babel/compat-data" "^7.13.15"
+    "@babel/helper-compilation-targets" "^7.13.13"
     "@babel/helper-plugin-utils" "^7.13.0"
     "@babel/helper-validator-option" "^7.12.17"
     "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.13.12"
-    "@babel/plugin-proposal-async-generator-functions" "^7.13.8"
+    "@babel/plugin-proposal-async-generator-functions" "^7.13.15"
     "@babel/plugin-proposal-class-properties" "^7.13.0"
     "@babel/plugin-proposal-dynamic-import" "^7.13.8"
     "@babel/plugin-proposal-export-namespace-from" "^7.12.13"
@@ -1044,7 +1080,7 @@
     "@babel/plugin-transform-object-super" "^7.12.13"
     "@babel/plugin-transform-parameters" "^7.13.0"
     "@babel/plugin-transform-property-literals" "^7.12.13"
-    "@babel/plugin-transform-regenerator" "^7.12.13"
+    "@babel/plugin-transform-regenerator" "^7.13.15"
     "@babel/plugin-transform-reserved-words" "^7.12.13"
     "@babel/plugin-transform-shorthand-properties" "^7.12.13"
     "@babel/plugin-transform-spread" "^7.13.0"
@@ -1054,10 +1090,10 @@
     "@babel/plugin-transform-unicode-escapes" "^7.12.13"
     "@babel/plugin-transform-unicode-regex" "^7.12.13"
     "@babel/preset-modules" "^0.1.4"
-    "@babel/types" "^7.13.12"
-    babel-plugin-polyfill-corejs2 "^0.1.4"
-    babel-plugin-polyfill-corejs3 "^0.1.3"
-    babel-plugin-polyfill-regenerator "^0.1.2"
+    "@babel/types" "^7.13.14"
+    babel-plugin-polyfill-corejs2 "^0.2.0"
+    babel-plugin-polyfill-corejs3 "^0.2.0"
+    babel-plugin-polyfill-regenerator "^0.2.0"
     core-js-compat "^3.9.0"
     semver "^6.3.0"
 
@@ -1085,7 +1121,7 @@
     "@babel/plugin-transform-react-jsx-source" "^7.12.1"
     "@babel/plugin-transform-react-pure-annotations" "^7.12.1"
 
-"@babel/preset-react@^7.12.5":
+"@babel/preset-react@^7.12.5", "@babel/preset-react@^7.9.4":
   version "7.13.13"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/preset-react/-/preset-react-7.13.13.tgz#fa6895a96c50763fe693f9148568458d5a839761"
   integrity sha1-+miVqWxQdj/mk/kUhWhFjVqDl2E=
@@ -1120,7 +1156,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.13.10"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
   integrity sha1-R9QqV7YJX0Ro2kQDiP262L6/DX0=
@@ -1136,21 +1172,21 @@
     "@babel/parser" "^7.12.13"
     "@babel/types" "^7.12.13"
 
-"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.13.0", "@babel/traverse@^7.13.13", "@babel/traverse@^7.7.0":
-  version "7.13.13"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/traverse/-/traverse-7.13.13.tgz#39aa9c21aab69f74d948a486dd28a2dbdbf5114d"
-  integrity sha1-OaqcIaq2n3TZSKSG3Sii29v1EU0=
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.13.0", "@babel/traverse@^7.13.13", "@babel/traverse@^7.13.15", "@babel/traverse@^7.7.0":
+  version "7.13.15"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/traverse/-/traverse-7.13.15.tgz#c38bf7679334ddd4028e8e1f7b3aa5019f0dada7"
+  integrity sha1-w4v3Z5M03dQCjo4fezqlAZ8Nrac=
   dependencies:
     "@babel/code-frame" "^7.12.13"
     "@babel/generator" "^7.13.9"
     "@babel/helper-function-name" "^7.12.13"
     "@babel/helper-split-export-declaration" "^7.12.13"
-    "@babel/parser" "^7.13.13"
-    "@babel/types" "^7.13.13"
+    "@babel/parser" "^7.13.15"
+    "@babel/types" "^7.13.14"
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.12.1", "@babel/types@^7.12.13", "@babel/types@^7.12.6", "@babel/types@^7.13.0", "@babel/types@^7.13.12", "@babel/types@^7.13.13", "@babel/types@^7.13.14", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
+"@babel/types@^7.0.0", "@babel/types@^7.12.1", "@babel/types@^7.12.13", "@babel/types@^7.12.6", "@babel/types@^7.13.0", "@babel/types@^7.13.12", "@babel/types@^7.13.14", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
   version "7.13.14"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@babel/types/-/types-7.13.14.tgz#c35a4abb15c7cd45a2746d78ab328e362cbace0d"
   integrity sha1-w1pKuxXHzUWidG14qzKONiy6zg0=
@@ -1181,6 +1217,90 @@
   version "10.1.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha1-8JULuhiBlRLUL3GX5WxRiqSRzxg=
+
+"@emotion/cache@^10.0.27":
+  version "10.0.29"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
+  integrity sha1-h+fmT0EsBgEC1Yn+fG3AQub50eA=
+  dependencies:
+    "@emotion/sheet" "0.9.4"
+    "@emotion/stylis" "0.8.5"
+    "@emotion/utils" "0.11.3"
+    "@emotion/weak-memoize" "0.2.5"
+
+"@emotion/core@^10.0.35":
+  version "10.1.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/core/-/core-10.1.1.tgz#c956c1365f2f2481960064bcb8c4732e5fb612c3"
+  integrity sha1-yVbBNl8vJIGWAGS8uMRzLl+2EsM=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@emotion/cache" "^10.0.27"
+    "@emotion/css" "^10.0.27"
+    "@emotion/serialize" "^0.11.15"
+    "@emotion/sheet" "0.9.4"
+    "@emotion/utils" "0.11.3"
+
+"@emotion/css@^10.0.27":
+  version "10.0.27"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/css/-/css-10.0.27.tgz#3a7458198fbbebb53b01b2b87f64e5e21241e14c"
+  integrity sha1-OnRYGY+767U7AbK4f2Tl4hJB4Uw=
+  dependencies:
+    "@emotion/serialize" "^0.11.15"
+    "@emotion/utils" "0.11.3"
+    babel-plugin-emotion "^10.0.27"
+
+"@emotion/hash@0.8.0", "@emotion/hash@^0.8.0":
+  version "0.8.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+  integrity sha1-u7/2iXj+/b5ozLUzvIy+HRr7VBM=
+
+"@emotion/is-prop-valid@^0.8.3":
+  version "0.8.8"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha1-2yixxDaKJZtgqXMR1qlS1P0BrBo=
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/memoize@0.7.4":
+  version "0.7.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+  integrity sha1-Gb8PWvGRSREcQNmLsM+CEZ9dnus=
+
+"@emotion/serialize@^0.11.15", "@emotion/serialize@^0.11.16":
+  version "0.11.16"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/serialize/-/serialize-0.11.16.tgz#dee05f9e96ad2fb25a5206b6d759b2d1ed3379ad"
+  integrity sha1-3uBfnpatL7JaUga211my0e0zea0=
+  dependencies:
+    "@emotion/hash" "0.8.0"
+    "@emotion/memoize" "0.7.4"
+    "@emotion/unitless" "0.7.5"
+    "@emotion/utils" "0.11.3"
+    csstype "^2.5.7"
+
+"@emotion/sheet@0.9.4":
+  version "0.9.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/sheet/-/sheet-0.9.4.tgz#894374bea39ec30f489bbfc3438192b9774d32e5"
+  integrity sha1-iUN0vqOeww9Im7/DQ4GSuXdNMuU=
+
+"@emotion/stylis@0.8.5":
+  version "0.8.5"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/stylis/-/stylis-0.8.5.tgz#deacb389bd6ee77d1e7fcaccce9e16c5c7e78e04"
+  integrity sha1-3qyzib1u530ef8rMzp4WxcfnjgQ=
+
+"@emotion/unitless@0.7.5":
+  version "0.7.5"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
+  integrity sha1-dyESkcGQCnALinjPr9oxYNdpSe0=
+
+"@emotion/utils@0.11.3":
+  version "0.11.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/utils/-/utils-0.11.3.tgz#a759863867befa7e583400d322652a3f44820924"
+  integrity sha1-p1mGOGe++n5YNADTImUqP0SCCSQ=
+
+"@emotion/weak-memoize@0.2.5":
+  version "0.2.5"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
+  integrity sha1-ju2YLi7m9/TkTCU+EpYpgHke/UY=
 
 "@eslint/eslintrc@^0.4.0":
   version "0.4.0"
@@ -1228,6 +1348,1413 @@
   integrity sha1-aNk1+j6uf91asNf5U/MgXYsr/Ck=
   dependencies:
     "@hapi/hoek" "^8.3.0"
+
+"@instructure/babel-plugin-transform-imports@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/babel-plugin-transform-imports/-/babel-plugin-transform-imports-8.0.0.tgz#93069edd13ea4d4eee8c65acefc3c639cf97739a"
+  integrity sha1-kwae3RPqTU7ujGWs78PGOc+Xc5o=
+  dependencies:
+    globby "^10.0.1"
+
+"@instructure/browserslist-config-instui@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/browserslist-config-instui/-/browserslist-config-instui-8.0.0.tgz#7d0deebb6c017aaa81a761e2520b0dd0ae86509c"
+  integrity sha1-fQ3uu2wBeqqBp2HiUgsN0K6GUJw=
+
+"@instructure/canvas-high-contrast-theme@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/canvas-high-contrast-theme/-/canvas-high-contrast-theme-8.0.0.tgz#321c44dad469b2bdee6ffc441ee8ec15af1b3d92"
+  integrity sha1-MhxE2tRpsr3ub/xEHujsFa8bPZI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-theme-tokens" "^8.0.0"
+
+"@instructure/canvas-theme@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/canvas-theme/-/canvas-theme-8.0.0.tgz#e2833701c43038d9a6a22722e7047abe68bc957b"
+  integrity sha1-4oM3AcQwONmmoici5wR6vmi8lXs=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-theme-tokens" "^8.0.0"
+
+"@instructure/config-loader@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/config-loader/-/config-loader-8.0.0.tgz#1267d261ea21c4e4d18ba5b2219a5aa21dad48fd"
+  integrity sha1-EmfSYeohxOTRi6WyIZpaoh2tSP0=
+
+"@instructure/console@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/console/-/console-8.0.0.tgz#a31f141131cd983c13825913798a77ec9b55cfab"
+  integrity sha1-ox8UETHNmDwTglkTeYp37JtVz6s=
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.8.3"
+    "@babel/helper-module-imports" "^7.8.3"
+    babel-plugin-macros "^2.8.0"
+
+"@instructure/debounce@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/debounce/-/debounce-8.0.0.tgz#b03504d5c281d89b969fc1efe1260512a7f007e0"
+  integrity sha1-sDUE1cKB2JuWn8Hv4SYFEqfwB+A=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@instructure/emotion@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/emotion/-/emotion-8.0.0.tgz#b8c4d4b36262afe3a6b9743f689720f195b647ca"
+  integrity sha1-uMTUs2Jir+OmuXQ/aJcg8ZW2R8o=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@emotion/core" "^10.0.35"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-babel-preset" "^8.0.0"
+    "@instructure/ui-decorator" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-themes" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    emotion-theming "^10.0.27"
+    hoist-non-react-statics "^3.3.2"
+    lodash "^4"
+    prop-types "^15"
+
+"@instructure/instructure-theme@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/instructure-theme/-/instructure-theme-8.0.0.tgz#5e347f992a194feec6b4ba9d5dc5458c1fb7227f"
+  integrity sha1-XjR/mSoZT+7GtLqdXcVFjB+3In8=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-theme-tokens" "^8.0.0"
+
+"@instructure/ui-a11y-content@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-a11y-content/-/ui-a11y-content-8.0.0.tgz#9890b6baac390b08c9293dab8806e79750db6f7a"
+  integrity sha1-mJC2uqw5CwjJKT2riAbnl1Dbb3o=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-a11y-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-a11y-utils/-/ui-a11y-utils-8.0.0.tgz#91a88c112547205cf09dd2abb07c12ddf75b1de7"
+  integrity sha1-kaiMESVHIFzwndKrsHwS3fdbHec=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-alerts@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-alerts/-/ui-alerts-8.0.0.tgz#7ae1c9e71d181da9ccc15936eb39e0ecbd1fa8f8"
+  integrity sha1-euHJ5x0YHanMwVk26zng7L0fqPg=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-themes" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-avatar@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-avatar/-/ui-avatar-8.0.0.tgz#42caaa1513046368123edc96f949bec97c2549cb"
+  integrity sha1-QsqqFRMEY2gSPtyW+Um+yXwlScs=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-axe-check@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-axe-check/-/ui-axe-check-8.0.0.tgz#e09786266aa189b6ebd873d4cbd238a2e5784297"
+  integrity sha1-4JeGJmqhibbr2HPUy9I4ouV4Qpc=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    axe-core "^3.3.2"
+
+"@instructure/ui-babel-preset@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-babel-preset/-/ui-babel-preset-8.0.0.tgz#94d8fc5b17813560af3fcbc30298d6d8df23d2d3"
+  integrity sha1-lNj8WxeBNWCvP8vDApjW2N8j0tM=
+  dependencies:
+    "@babel/core" "^7.13.10"
+    "@babel/plugin-proposal-class-properties" "^7.8.3"
+    "@babel/plugin-proposal-decorators" "^7.8.3"
+    "@babel/plugin-proposal-export-default-from" "^7.8.3"
+    "@babel/plugin-proposal-object-rest-spread" "^7.9.5"
+    "@babel/plugin-proposal-optional-chaining" "^7"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-transform-classes" "^7.9.5"
+    "@babel/plugin-transform-destructuring" "^7.9.5"
+    "@babel/plugin-transform-react-constant-elements" "^7.9.0"
+    "@babel/plugin-transform-react-display-name" "^7.8.3"
+    "@babel/plugin-transform-runtime" "^7.13.10"
+    "@babel/preset-env" "^7.9.5"
+    "@babel/preset-react" "^7.9.4"
+    "@babel/runtime" "^7.13.10"
+    "@instructure/babel-plugin-transform-imports" "^8.0.0"
+    "@instructure/browserslist-config-instui" "^8.0.0"
+    "@instructure/config-loader" "^8.0.0"
+    babel-loader "^8.1.0"
+    babel-plugin-add-import-extension "^1.4.3"
+    babel-plugin-dynamic-import-node "^2.3.0"
+    babel-plugin-istanbul "^6.0.0"
+    babel-plugin-macros "^2.8.0"
+    babel-plugin-transform-ensure-ignore "^0.1.0"
+    babel-plugin-transform-remove-console "^6.9.4"
+    babel-plugin-transform-undefined-to-void "^6.9.4"
+    core-js "^3.2.1"
+
+"@instructure/ui-badge@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-badge/-/ui-badge-8.0.0.tgz#3922ba2e03d00b1e04f16d78c66c31c488fa960a"
+  integrity sha1-OSK6LgPQCx4E8W14xmwxxIj6lgo=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-billboard@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-billboard/-/ui-billboard-8.0.0.tgz#cd7ae647f84eef6d59d22453a2fe344e3cfb2168"
+  integrity sha1-zXrmR/hO721Z0iRTov40Tjz7IWg=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-heading" "^8.0.0"
+    "@instructure/ui-img" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-breadcrumb@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-breadcrumb/-/ui-breadcrumb-8.0.0.tgz#b43303d074a23d25dc2736be4a59f7cc36a2bf07"
+  integrity sha1-tDMD0HSiPSXcJza+Sln3zDaivwc=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-link" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-truncate-text" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-buttons@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-buttons/-/ui-buttons-8.0.0.tgz#dc60e64f74bc14606852ecf3a75fe1f76b90e1d8"
+  integrity sha1-3GDmT3S8FGBoUuzzp1/h92uQ4dg=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-flex" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-tooltip" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-byline@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-byline/-/ui-byline-8.0.0.tgz#b4e1e7a2136fced0dac12245736a3d95725c33d6"
+  integrity sha1-tOHnohNvztDawSJFc2o9lXJcM9Y=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-calendar@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-calendar/-/ui-calendar-8.0.0.tgz#e93b6a0e8097cc60aeb419681e7bd70f12fe4d97"
+  integrity sha1-6TtqDoCXzGCutBloHnvXDxL+TZc=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-checkbox@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-checkbox/-/ui-checkbox-8.0.0.tgz#b8f58d68a31f9778706af7512161d1a965e01815"
+  integrity sha1-uPWNaKMfl3hwavdRIWHRqWXgGBU=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-svg-images" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-code-editor@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-code-editor/-/ui-code-editor-8.0.0.tgz#9754d71d58748465cdf399b69b07c0ce9f1dbfb3"
+  integrity sha1-l1TXHVh0hGXN85m2mwfAzp8dv7M=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-test-locator" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    codemirror "5.48.4"
+    prop-types "^15"
+    react-codemirror2 "^7.1.0"
+
+"@instructure/ui-color-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-color-utils/-/ui-color-utils-8.0.0.tgz#c4ca8f26f3fd588b55200037a12c63fb387a8bd0"
+  integrity sha1-xMqPJvP9WItVIAA3oSxj+zh6i9A=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    tinycolor2 "^1.4.2"
+
+"@instructure/ui-date-input@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-date-input/-/ui-date-input-8.0.0.tgz#f20c218d9ca173d11066f575d4ff19703f429904"
+  integrity sha1-8gwhjZyhc9EQZvV11P8ZcD9CmQQ=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-calendar" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-popover" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-selectable" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-text-input" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-decorator@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-decorator/-/ui-decorator-8.0.0.tgz#7c0a41f020c24f36444513adb5b6c393bb35a3ff"
+  integrity sha1-fApB8CDCTzZERROttbbDk7s1o/8=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@instructure/ui-dialog@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-dialog/-/ui-dialog-8.0.0.tgz#e029f9fabaca155c85788d8c596b333deb00bd24"
+  integrity sha1-4Cn5+rrKFVyFeI2MWWszPesAvSQ=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-dom-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-dom-utils/-/ui-dom-utils-8.0.0.tgz#b928c76189a2cb8b50df9c2eca3d580eaf1b2502"
+  integrity sha1-uSjHYYmiy4tQ35wuyj1YDq8bJQI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+
+"@instructure/ui-drawer-layout@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-drawer-layout/-/ui-drawer-layout-8.0.0.tgz#db755cea2a0757294157d49c16e72a39f084d602"
+  integrity sha1-23Vc6ioHVylBV9ScFucqOfCE1gI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dialog" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-test-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-editable@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-editable/-/ui-editable-8.0.0.tgz#d1d0db8103275de1da283114cf217194f8414e4a"
+  integrity sha1-0dDbgQMnXeHaKDEUzyFxlPhBTko=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-flex" "^8.0.0"
+    "@instructure/ui-focusable" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-expandable@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-expandable/-/ui-expandable-8.0.0.tgz#d1b7405da4bb03d379ab0bd0248e510987deca11"
+  integrity sha1-0bdAXaS7A9N5qwvQJI5RCYfeyhE=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-file-drop@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-file-drop/-/ui-file-drop-8.0.0.tgz#f3904033ee5ee8be3e8e3613c7aaa832a5bd581e"
+  integrity sha1-85BAM+5e6L4+jjYTx6qoMqW9WB4=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-flex@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-flex/-/ui-flex-8.0.0.tgz#456dcb1d1346ac07e69bf045517669cd05835f9d"
+  integrity sha1-RW3LHRNGrAfmm/BFUXZpzQWDX50=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-focusable@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-focusable/-/ui-focusable-8.0.0.tgz#59945e0efc036e51f8619f6eb84ce55018a1745e"
+  integrity sha1-WZReDvwDblH4YZ9uuEzlUBihdF4=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-form-field@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-form-field/-/ui-form-field-8.0.0.tgz#f3b29912a1d0a60998c069b30088df722852ed9c"
+  integrity sha1-87KZEqHQpgmYwGmzAIjfcihS7Zw=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-grid" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-grid@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-grid/-/ui-grid-8.0.0.tgz#fd347fded72dcb9d9a535538a20c76b4a5bf129a"
+  integrity sha1-/TR/3tcty52aU1U4ogx2tKW/Epo=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-heading@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-heading/-/ui-heading-8.0.0.tgz#219ff397192d01b1ae63778a87138eaeea087375"
+  integrity sha1-IZ/zlxktAbGuY3eKhxOOruoIc3U=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-i18n@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-i18n/-/ui-i18n-8.0.0.tgz#b45cb859403879240708f90c18a4956a437f2cf6"
+  integrity sha1-tFy4WUA4eSQHCPkMGKSVakN/LPY=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-decorator" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    hoist-non-react-statics "^3.3.2"
+    moment-timezone "^0.5"
+    prop-types "^15"
+
+"@instructure/ui-icons@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-icons/-/ui-icons-8.0.0.tgz#d5e54cd2bb1d09d45c9ba86f7772bf4e0db6eda2"
+  integrity sha1-1eVM0rsdCdRcm6hvd3K/Tg227aI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-svg-images" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-img@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-img/-/ui-img-8.0.0.tgz#1edbad475b3650fcbd9d305aa02e01a5917b3b60"
+  integrity sha1-HtutR1s2UPy9nTBaoC4BpZF7O2A=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-link@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-link/-/ui-link-8.0.0.tgz#efdb491524663acb108d2a798b31f0fc4124c2fe"
+  integrity sha1-79tJFSRmOssQjSp5izHw/EEkwv4=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-list@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-list/-/ui-list-8.0.0.tgz#2cce96969382a1098b4163e1e62fb5f9891f083c"
+  integrity sha1-LM6WlpOCoQmLQWPh5i+1+YkfCDw=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-menu@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-menu/-/ui-menu-8.0.0.tgz#cc45d46f6dbcde6d5eb64f57a6c00739d7cb2ede"
+  integrity sha1-zEXUb2283m1etk9XpsAHOdfLLt4=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-popover" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-metric@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-metric/-/ui-metric-8.0.0.tgz#48335002a20b8cf86bfbb64e9fab1e35ff7c15b7"
+  integrity sha1-SDNQAqILjPhr+7ZOn6seNf98Fbc=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-modal@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-modal/-/ui-modal-8.0.0.tgz#72ad5d656fb05aade85e1a76bc217f85fe3a8c38"
+  integrity sha1-cq1dZW+wWq3oXhp2vCF/hf46jDg=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-dialog" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-overlays" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-motion@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-motion/-/ui-motion-8.0.0.tgz#bd326ce44ca38f1f61fde3b4b8689744539cffe0"
+  integrity sha1-vTJs5Eyjjx9h/eO0uGiXRFOc/+A=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-navigation@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-navigation/-/ui-navigation-8.0.0.tgz#4b20a273964be3b532d77e2995b6a53efb38fdf5"
+  integrity sha1-SyCic5ZL47Uy134plbalPvs4/fU=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-badge" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-focusable" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-menu" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-tooltip" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-number-input@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-number-input/-/ui-number-input-8.0.0.tgz#debcd92e9f8d376ec786d35db88f31e329daae28"
+  integrity sha1-3rzZLp+NN27HhtNduI8x4ynarig=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-options@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-options/-/ui-options-8.0.0.tgz#7d6dbb31ca1f7b5e9a74d6186aea6d42fe0beb2c"
+  integrity sha1-fW27Mcofe16adNYYauptQv4L6yw=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-overlays@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-overlays/-/ui-overlays-8.0.0.tgz#d479fc86340fd788c0dba0a7471a8bb3823fb30a"
+  integrity sha1-1Hn8hjQP14jA26CnRxqLs4I/swo=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-dialog" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-focusable" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-popover" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-tooltip" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    no-scroll "^2.1.0"
+    prop-types "^15"
+
+"@instructure/ui-pages@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-pages/-/ui-pages-8.0.0.tgz#b55cee73825864ca54740d0b29e6736e2a2c2714"
+  integrity sha1-tVzuc4JYZMpUdA0LKeZzbiosJxQ=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-pagination@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-pagination/-/ui-pagination-8.0.0.tgz#98c00dc4d7191d0be1bd462bf40db2761253db59"
+  integrity sha1-mMANxNcZHQvhvUYr9A2ydhJT21k=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-tooltip" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-pill@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-pill/-/ui-pill-8.0.0.tgz#26f857f0f6d997b1dbb00d6d8e24eb7585765fb1"
+  integrity sha1-JvhX8PbZl7HbsA1tjiTrdYV2X7E=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-tooltip" "^8.0.0"
+    "@instructure/ui-truncate-text" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-popover@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-popover/-/ui-popover-8.0.0.tgz#a17747b025fe7c3f56b6489d57c87b54f5c87dc2"
+  integrity sha1-oXdHsCX+fD9WtkidV8h7VPXIfcI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-utils" "^8.0.0"
+    "@instructure/ui-dialog" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-portal@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-portal/-/ui-portal-8.0.0.tgz#0a487d3a5dde575572716bc91894d4f1caae6b81"
+  integrity sha1-Ckh9Ol3eV1VycWvJGJTU8cqua4E=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-position@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-position/-/ui-position-8.0.0.tgz#ff2a60e21958a73dd9adc8c064bbfecf899e415f"
+  integrity sha1-/ypg4hlYpz3ZrcjAZLv+z4meQV8=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-progress@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-progress/-/ui-progress-8.0.0.tgz#660d735a3e619de65b56dd52d5d925b02d82129d"
+  integrity sha1-Zg1zWj5hneZbVt1S1dklsC2CEp0=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-prop-types@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-prop-types/-/ui-prop-types-8.0.0.tgz#9e7e93abdaffae90ee5628e8ebad94e8036bd963"
+  integrity sha1-nn6Tq9r/rpDuVijo662U6ANr2WM=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    prop-types ">= 15.7.0"
+
+"@instructure/ui-radio-input@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-radio-input/-/ui-radio-input-8.0.0.tgz#aa33cbf4b83097ed13a3653a3a93a167a71bdb13"
+  integrity sha1-qjPL9Lgwl+0To2U6OpOhZ6cb2xM=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-range-input@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-range-input/-/ui-range-input-8.0.0.tgz#b4f4badd96126d592680cff2250244587003b757"
+  integrity sha1-tPS63ZYSbVkmgM/yJQJEWHADt1c=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-rating@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-rating/-/ui-rating-8.0.0.tgz#32e4435280feaed73729f14d953063d5c0b1aa1d"
+  integrity sha1-MuRDUoD+rtc3KfFNlTBj1cCxqh0=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-react-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-react-utils/-/ui-react-utils-8.0.0.tgz#cafb75aecda25d8de1102f17aad3abacb54a6cb6"
+  integrity sha1-yvt1rs2iXY3hEC8XqtOrrLVKbLY=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@emotion/is-prop-valid" "^0.8.3"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-decorator" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-responsive@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-responsive/-/ui-responsive-8.0.0.tgz#9250eba0eb740d5a517a3f888a74a56f88d91ef5"
+  integrity sha1-klDroOt0DVpRej+IinSlb4jZHvU=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-select@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-select/-/ui-select-8.0.0.tgz#8e6fd374c7de4073aadb50c076cb868fa1438af2"
+  integrity sha1-jm/TdMfeQHOq21DAdsuGj6FDivI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-options" "^8.0.0"
+    "@instructure/ui-popover" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-selectable" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-text-input" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-selectable@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-selectable/-/ui-selectable-8.0.0.tgz#88bda715edd1c18b031b0cba31440d286242caf3"
+  integrity sha1-iL2nFe3RwYsDGwy6MUQNKGJCyvM=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-simple-select@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-simple-select/-/ui-simple-select-8.0.0.tgz#b1120426a10bbaf4574a1404124349d51e84cfc2"
+  integrity sha1-sRIEJqELuvRXShQEEkNJ1R6Ez8I=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-select" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-spinner@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-spinner/-/ui-spinner-8.0.0.tgz#9ded67b51ea90037007ce0c35ed3c35cb177abcc"
+  integrity sha1-ne1ntR6pADcAfODDXtPDXLF3q8w=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-svg-images@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-svg-images/-/ui-svg-images-8.0.0.tgz#c8998e04493aa15e60e4d353c2b3910350380491"
+  integrity sha1-yJmOBEk6oV5g5NNTwrORA1A4BJE=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-table@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-table/-/ui-table-8.0.0.tgz#e35c7b9ed81f7df1775f39ea2a6dfd61f3e3a672"
+  integrity sha1-41x7ntgfffF3XznqKm39YfPjpnI=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-simple-select" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-tabs@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-tabs/-/ui-tabs-8.0.0.tgz#c4b4f2f238c640f8abf0f52ce2381fd0a405b88d"
+  integrity sha1-xLTy8jjGQPir8PUs4jgf0KQFuI0=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-focusable" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-tag@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-tag/-/ui-tag-8.0.0.tgz#da30179474edff423b13384de96af42a70f0c78a"
+  integrity sha1-2jAXlHTt/0I7EzhN6Wr0KnDwx4o=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-test-locator@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-test-locator/-/ui-test-locator-8.0.0.tgz#b3f2f98e9ae8dabfe836d15b7f599561929bbb2b"
+  integrity sha1-s/L5jpro2r/oNtFbf1mVYZKbuys=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-test-queries" "^8.0.0"
+
+"@instructure/ui-test-queries@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-test-queries/-/ui-test-queries-8.0.0.tgz#0c31d1812b5aa8bf7d711ca7824de3b89dd388c6"
+  integrity sha1-DDHRgStaqL99cRyngk3juJ3TiMY=
+  dependencies:
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/ui-axe-check" "^8.0.0"
+    "@instructure/ui-test-sandbox" "^8.0.0"
+    keycode "^2"
+    pretty-format "^24.9.0"
+    sizzle "^2.3.4"
+
+"@instructure/ui-test-sandbox@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-test-sandbox/-/ui-test-sandbox-8.0.0.tgz#20eee350af8d814bb9521c1c3355cc29ae1b7f4b"
+  integrity sha1-IO7jUK+NgUu5UhwcM1XMKa4bf0s=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    sinon "^7.4.2"
+
+"@instructure/ui-test-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-test-utils/-/ui-test-utils-8.0.0.tgz#68915f8b53bdf7cd2067217c0050701387fe1eb6"
+  integrity sha1-aJFfi1O9980gZyF8AFBwE4f+HrY=
+  dependencies:
+    "@instructure/ui-test-locator" "^8.0.0"
+    "@instructure/ui-test-queries" "^8.0.0"
+    "@instructure/ui-test-sandbox" "^8.0.0"
+    "@sheerun/mutationobserver-shim" "^0.3.2"
+    chai "^4.2.0"
+    chai-as-promised "^7.1.1"
+    chai-exclude "^2.0.2"
+    chai-string "^1.5.0"
+    dirty-chai "^2.0.1"
+    sinon-chai "^3.3.0"
+    wait-for-expect "^2.0.0"
+
+"@instructure/ui-testable@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-testable/-/ui-testable-8.0.0.tgz#c9794690f50d60838ce0fc738fe6abb640fd46e1"
+  integrity sha1-yXlGkPUNYIOM4Pxzj+artkD9RuE=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-decorator" "^8.0.0"
+
+"@instructure/ui-text-area@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-text-area/-/ui-text-area-8.0.0.tgz#1b7212e8102c3d550e5e0742da51d3f81c2f39f7"
+  integrity sha1-G3IS6BAsPVUOXgdC2lHT+BwvOfc=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-text-input@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-text-input/-/ui-text-input-8.0.0.tgz#06b73034265a8926b26922b61cb46a75f558ebb6"
+  integrity sha1-BrcwNCZaiSayaSK2HLRqdfVY67Y=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-flex" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-tag" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-text@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-text/-/ui-text-8.0.0.tgz#fb51246f7bfc6241be9304cfd4082a5387ac47a3"
+  integrity sha1-+1Ekb3v8YkG+kwTP1AgqU4esR6M=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-theme-tokens@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-theme-tokens/-/ui-theme-tokens-8.0.0.tgz#cf7a4d972b16626e18264e6b4bc2f056f5d40a76"
+  integrity sha1-z3pNlysWYm4YJk5rS8LwVvXUCnY=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@instructure/ui-themes@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-themes/-/ui-themes-8.0.0.tgz#fd5469359b21cedb8b5fc54087191aeafb70f669"
+  integrity sha1-/VRpNZshztuLX8VAhxka6vtw9mk=
+  dependencies:
+    "@instructure/canvas-high-contrast-theme" "^8.0.0"
+    "@instructure/canvas-theme" "^8.0.0"
+    "@instructure/instructure-theme" "^8.0.0"
+
+"@instructure/ui-time-select@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-time-select/-/ui-time-select-8.0.0.tgz#f8c6b6b197c2cc9504be838adc3fb5fa005633a0"
+  integrity sha1-+Ma2sZfCzJUEvoOK3D+1+gBWM6A=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-select" "^8.0.0"
+    "@instructure/ui-test-locator" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-toggle-details@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-toggle-details/-/ui-toggle-details-8.0.0.tgz#d8088af6f0b390a0563b66a37f1b9cd6f15b5e54"
+  integrity sha1-2AiK9vCzkKBWO2ajfxuc1vFbXlQ=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-expandable" "^8.0.0"
+    "@instructure/ui-flex" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-menu" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-tooltip@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-tooltip/-/ui-tooltip-8.0.0.tgz#eb0fd1d1eee4306670dbad64b265a9c6afe9ed13"
+  integrity sha1-6w/R0e7kMGZw261ksmWpxq/p7RM=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-popover" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/uid" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-tray@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-tray/-/ui-tray-8.0.0.tgz#950e84155b8ca9f4e58d111860d28400dcc09077"
+  integrity sha1-lQ6EFVuMqfTljREYYNKEANzAkHc=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dialog" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui-tree-browser@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-tree-browser/-/ui-tree-browser-8.0.0.tgz#fb8250fc7a9697aa46acc2d1c716166615f69344"
+  integrity sha1-+4JQ/HqWl6pGrMLRxxYWZhX2k0Q=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-img" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    keycode "^2"
+    prop-types "^15"
+
+"@instructure/ui-truncate-text@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-truncate-text/-/ui-truncate-text-8.0.0.tgz#be7f784628533416810ddfcfbe82b45b77c4faf6"
+  integrity sha1-vn94RihTNBaBDd/PvoK0W3fE+vY=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/debounce" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    "@instructure/ui-testable" "^8.0.0"
+    "@instructure/ui-utils" "^8.0.0"
+    escape-html "^1"
+    prop-types "^15"
+
+"@instructure/ui-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-utils/-/ui-utils-8.0.0.tgz#0c2dcaaa8b7984bcfb9c70cea386dc36bee936a1"
+  integrity sha1-DC3Kqot5hLz7nHDOo4bcNr7pNqE=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    bowser "^1.9.4"
+    fast-deep-equal "^2"
+    json-stable-stringify "^1.0.1"
+    keycode "^2"
+
+"@instructure/ui-view@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui-view/-/ui-view-8.0.0.tgz#f06d9a2c4be48a1e34db3f6001741833c823a73f"
+  integrity sha1-8G2aLEvkih402z9gAXQYM8gjpz8=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/console" "^8.0.0"
+    "@instructure/emotion" "^8.0.0"
+    "@instructure/ui-color-utils" "^8.0.0"
+    "@instructure/ui-dom-utils" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-prop-types" "^8.0.0"
+    "@instructure/ui-react-utils" "^8.0.0"
+    prop-types "^15"
+
+"@instructure/ui@8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/ui/-/ui-8.0.0.tgz#f5cdb1080e275ab4d130cf2d1bcd3b015a18cbc9"
+  integrity sha1-9c2xCA4nWrTRMM8tG807AVoYy8k=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@instructure/ui-a11y-content" "^8.0.0"
+    "@instructure/ui-alerts" "^8.0.0"
+    "@instructure/ui-avatar" "^8.0.0"
+    "@instructure/ui-badge" "^8.0.0"
+    "@instructure/ui-billboard" "^8.0.0"
+    "@instructure/ui-breadcrumb" "^8.0.0"
+    "@instructure/ui-buttons" "^8.0.0"
+    "@instructure/ui-byline" "^8.0.0"
+    "@instructure/ui-calendar" "^8.0.0"
+    "@instructure/ui-checkbox" "^8.0.0"
+    "@instructure/ui-code-editor" "^8.0.0"
+    "@instructure/ui-date-input" "^8.0.0"
+    "@instructure/ui-dialog" "^8.0.0"
+    "@instructure/ui-drawer-layout" "^8.0.0"
+    "@instructure/ui-editable" "^8.0.0"
+    "@instructure/ui-expandable" "^8.0.0"
+    "@instructure/ui-file-drop" "^8.0.0"
+    "@instructure/ui-flex" "^8.0.0"
+    "@instructure/ui-focusable" "^8.0.0"
+    "@instructure/ui-form-field" "^8.0.0"
+    "@instructure/ui-grid" "^8.0.0"
+    "@instructure/ui-heading" "^8.0.0"
+    "@instructure/ui-i18n" "^8.0.0"
+    "@instructure/ui-icons" "^8.0.0"
+    "@instructure/ui-img" "^8.0.0"
+    "@instructure/ui-link" "^8.0.0"
+    "@instructure/ui-list" "^8.0.0"
+    "@instructure/ui-menu" "^8.0.0"
+    "@instructure/ui-metric" "^8.0.0"
+    "@instructure/ui-modal" "^8.0.0"
+    "@instructure/ui-motion" "^8.0.0"
+    "@instructure/ui-navigation" "^8.0.0"
+    "@instructure/ui-number-input" "^8.0.0"
+    "@instructure/ui-options" "^8.0.0"
+    "@instructure/ui-overlays" "^8.0.0"
+    "@instructure/ui-pages" "^8.0.0"
+    "@instructure/ui-pagination" "^8.0.0"
+    "@instructure/ui-pill" "^8.0.0"
+    "@instructure/ui-popover" "^8.0.0"
+    "@instructure/ui-portal" "^8.0.0"
+    "@instructure/ui-position" "^8.0.0"
+    "@instructure/ui-progress" "^8.0.0"
+    "@instructure/ui-radio-input" "^8.0.0"
+    "@instructure/ui-range-input" "^8.0.0"
+    "@instructure/ui-rating" "^8.0.0"
+    "@instructure/ui-responsive" "^8.0.0"
+    "@instructure/ui-select" "^8.0.0"
+    "@instructure/ui-selectable" "^8.0.0"
+    "@instructure/ui-spinner" "^8.0.0"
+    "@instructure/ui-svg-images" "^8.0.0"
+    "@instructure/ui-table" "^8.0.0"
+    "@instructure/ui-tabs" "^8.0.0"
+    "@instructure/ui-tag" "^8.0.0"
+    "@instructure/ui-text" "^8.0.0"
+    "@instructure/ui-text-area" "^8.0.0"
+    "@instructure/ui-text-input" "^8.0.0"
+    "@instructure/ui-time-select" "^8.0.0"
+    "@instructure/ui-toggle-details" "^8.0.0"
+    "@instructure/ui-tooltip" "^8.0.0"
+    "@instructure/ui-tray" "^8.0.0"
+    "@instructure/ui-tree-browser" "^8.0.0"
+    "@instructure/ui-truncate-text" "^8.0.0"
+    "@instructure/ui-view" "^8.0.0"
+
+"@instructure/uid@^8.0.0":
+  version "8.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/uid/-/uid-8.0.0.tgz#21bfb2ac29c333e65461e25c217a09683ea89711"
+  integrity sha1-Ib+yrCnDM+ZUYeJcIXoJaD6olxE=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -1405,6 +2932,15 @@
     source-map "^0.6.1"
     write-file-atomic "^3.0.0"
 
+"@jest/types@^24.9.0":
+  version "24.9.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@jest/types/-/types-24.9.0.tgz#63cb26cb7500d069e5a389441a7c6ab5e909fc59"
+  integrity sha1-Y8smy3UA0Gnlo4lEGnxqtekJ/Fk=
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^1.1.1"
+    "@types/yargs" "^13.0.0"
+
 "@jest/types@^26.6.0", "@jest/types@^26.6.2":
   version "26.6.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@jest/types/-/types-26.6.2.tgz#bef5a532030e1d88a2f5a6d933f84e97226ed48e"
@@ -1415,6 +2951,70 @@
     "@types/node" "*"
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
+
+"@material-ui/core@^4.11.3":
+  version "4.11.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@material-ui/core/-/core-4.11.3.tgz#f22e41775b0bd075e36a7a093d43951bf7f63850"
+  integrity sha1-8i5Bd1sL0HXjanoJPUOVG/f2OFA=
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@material-ui/styles" "^4.11.3"
+    "@material-ui/system" "^4.11.3"
+    "@material-ui/types" "^5.1.0"
+    "@material-ui/utils" "^4.11.2"
+    "@types/react-transition-group" "^4.2.0"
+    clsx "^1.0.4"
+    hoist-non-react-statics "^3.3.2"
+    popper.js "1.16.1-lts"
+    prop-types "^15.7.2"
+    react-is "^16.8.0 || ^17.0.0"
+    react-transition-group "^4.4.0"
+
+"@material-ui/styles@^4.11.3":
+  version "4.11.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@material-ui/styles/-/styles-4.11.3.tgz#1b8d97775a4a643b53478c895e3f2a464e8916f2"
+  integrity sha1-G42Xd1pKZDtTR4yJXj8qRk6JFvI=
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@emotion/hash" "^0.8.0"
+    "@material-ui/types" "^5.1.0"
+    "@material-ui/utils" "^4.11.2"
+    clsx "^1.0.4"
+    csstype "^2.5.2"
+    hoist-non-react-statics "^3.3.2"
+    jss "^10.5.1"
+    jss-plugin-camel-case "^10.5.1"
+    jss-plugin-default-unit "^10.5.1"
+    jss-plugin-global "^10.5.1"
+    jss-plugin-nested "^10.5.1"
+    jss-plugin-props-sort "^10.5.1"
+    jss-plugin-rule-value-function "^10.5.1"
+    jss-plugin-vendor-prefixer "^10.5.1"
+    prop-types "^15.7.2"
+
+"@material-ui/system@^4.11.3":
+  version "4.11.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@material-ui/system/-/system-4.11.3.tgz#466bc14c9986798fd325665927c963eb47cc4143"
+  integrity sha1-RmvBTJmGeY/TJWZZJ8lj60fMQUM=
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@material-ui/utils" "^4.11.2"
+    csstype "^2.5.2"
+    prop-types "^15.7.2"
+
+"@material-ui/types@^5.1.0":
+  version "5.1.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@material-ui/types/-/types-5.1.0.tgz#efa1c7a0b0eaa4c7c87ac0390445f0f88b0d88f2"
+  integrity sha1-76HHoLDqpMfIesA5BEXw+IsNiPI=
+
+"@material-ui/utils@^4.11.2":
+  version "4.11.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@material-ui/utils/-/utils-4.11.2.tgz#f1aefa7e7dff2ebcb97d31de51aecab1bb57540a"
+  integrity sha1-8a76fn3/Lry5fTHeUa7KsbtXVAo=
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    prop-types "^15.7.2"
+    react-is "^16.8.0 || ^17.0.0"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -1485,7 +3085,12 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sinonjs/commons@^1.7.0":
+"@sheerun/mutationobserver-shim@^0.3.2":
+  version "0.3.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
+  integrity sha1-VAXujkRO0hLbROeTUfDHClgqriU=
+
+"@sinonjs/commons@^1", "@sinonjs/commons@^1.3.0", "@sinonjs/commons@^1.4.0", "@sinonjs/commons@^1.7.0":
   version "1.8.3"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@sinonjs/commons/-/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
   integrity sha1-OALd0hpQqUm2ch3dcto25n5/Gy0=
@@ -1498,6 +3103,28 @@
   integrity sha1-KTZ0/MsyYqx4LHqt/eyoaxDHXEA=
   dependencies:
     "@sinonjs/commons" "^1.7.0"
+
+"@sinonjs/formatio@^3.2.1":
+  version "3.2.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@sinonjs/formatio/-/formatio-3.2.2.tgz#771c60dfa75ea7f2d68e3b94c7e888a78781372c"
+  integrity sha1-dxxg36dep/LWjjuUx+iIp4eBNyw=
+  dependencies:
+    "@sinonjs/commons" "^1"
+    "@sinonjs/samsam" "^3.1.0"
+
+"@sinonjs/samsam@^3.1.0", "@sinonjs/samsam@^3.3.3":
+  version "3.3.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@sinonjs/samsam/-/samsam-3.3.3.tgz#46682efd9967b259b81136b9f120fd54585feb4a"
+  integrity sha1-Rmgu/Zlnslm4ETa58SD9VFhf60o=
+  dependencies:
+    "@sinonjs/commons" "^1.3.0"
+    array-from "^2.1.1"
+    lodash "^4.17.15"
+
+"@sinonjs/text-encoding@^0.7.1":
+  version "0.7.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
+  integrity sha1-jaXGUwkVZT86Hzj9XxAdjD+AecU=
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
@@ -1746,6 +3373,14 @@
   dependencies:
     "@types/istanbul-lib-coverage" "*"
 
+"@types/istanbul-reports@^1.1.1":
+  version "1.1.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/istanbul-reports/-/istanbul-reports-1.1.2.tgz#e875cc689e47bce549ec81f3df5e6f6f11cfaeb2"
+  integrity sha1-6HXMaJ5HvOVJ7IHz315vbxHPrrI=
+  dependencies:
+    "@types/istanbul-lib-coverage" "*"
+    "@types/istanbul-lib-report" "*"
+
 "@types/istanbul-reports@^3.0.0":
   version "3.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/istanbul-reports/-/istanbul-reports-3.0.0.tgz#508b13aa344fa4976234e75dddcc34925737d821"
@@ -1796,10 +3431,31 @@
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/prettier/-/prettier-2.2.3.tgz#ef65165aea2924c9359205bf748865b8881753c0"
   integrity sha1-72UWWuopJMk1kgW/dIhluIgXU8A=
 
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
+
 "@types/q@^1.5.1":
   version "1.5.4"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha1-FZJUFOCtLNdlv+9YhC9+JqesyyQ=
+
+"@types/react-transition-group@^4.2.0":
+  version "4.4.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/react-transition-group/-/react-transition-group-4.4.1.tgz#e1a3cb278df7f47f17b5082b1b3da17170bd44b1"
+  integrity sha1-4aPLJ4339H8XtQgrGz2hcXC9RLE=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*":
+  version "17.0.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/react/-/react-17.0.3.tgz#ba6e215368501ac3826951eef2904574c262cc79"
+  integrity sha1-um4hU2hQGsOCaVHu8pBFdMJizHk=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
 
 "@types/resolve@0.0.8":
   version "0.0.8"
@@ -1807,6 +3463,11 @@
   integrity sha1-8mB00jjgJlnjI84aE9BB7uKA4ZQ=
   dependencies:
     "@types/node" "*"
+
+"@types/scheduler@*":
+  version "0.16.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
+  integrity sha1-GIRSBehv8AOFF6q3oYpiprn3EnU=
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -1862,6 +3523,13 @@
   version "20.2.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/yargs-parser/-/yargs-parser-20.2.0.tgz#dd3e6699ba3237f0348cd085e4698780204842f9"
   integrity sha1-3T5mmboyN/A0jNCF5GmHgCBIQvk=
+
+"@types/yargs@^13.0.0":
+  version "13.0.11"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@types/yargs/-/yargs-13.0.11.tgz#def2f0c93e4bdf2c61d7e34899b17e34be28d3b1"
+  integrity sha1-3vLwyT5L3yxh1+NImbF+NL4o07E=
+  dependencies:
+    "@types/yargs-parser" "*"
 
 "@types/yargs@^15.0.0":
   version "15.0.13"
@@ -2261,7 +3929,7 @@ ansi-regex@^2.0.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
   integrity sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
 
-ansi-regex@^4.1.0:
+ansi-regex@^4.0.0, ansi-regex@^4.1.0:
   version "4.1.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/ansi-regex/-/ansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
   integrity sha1-i5+PCM8ay4Q3Vqg5yox+MWjFGZc=
@@ -2350,6 +4018,11 @@ array-flatten@^2.1.0:
   version "2.1.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha1-JO+AoowaiTYX4hSbDG0NeIKTsJk=
+
+array-from@^2.1.1:
+  version "2.1.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/array-from/-/array-from-2.1.1.tgz#cfe9d8c26628b9dc5aecc62a9f5d8f1f352c1195"
+  integrity sha1-z+nYwmYoudxa7MYqn12PHzUsEZU=
 
 array-includes@^3.1.1, array-includes@^3.1.2, array-includes@^3.1.3:
   version "3.1.3"
@@ -2443,6 +4116,11 @@ assert@^1.1.1:
     object-assign "^4.1.1"
     util "0.10.3"
 
+assertion-error@^1.1.0:
+  version "1.1.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
+  integrity sha1-5gtrDo8wG9l+U3UhW9pAbIURjAs=
+
 assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
@@ -2513,6 +4191,11 @@ aws4@^1.8.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
 
+axe-core@^3.3.2:
+  version "3.5.5"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/axe-core/-/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
+  integrity sha1-hDFQc7U/o8DFFnbFiNWdoJoZIic=
+
 axe-core@^4.0.2:
   version "4.1.4"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/axe-core/-/axe-core-4.1.4.tgz#f19cd99a84ee32a318b9c5b5bb8ed373ad94f143"
@@ -2567,12 +4250,45 @@ babel-loader@8.1.0:
     pify "^4.0.1"
     schema-utils "^2.6.5"
 
-babel-plugin-dynamic-import-node@^2.3.3:
+babel-loader@^8.1.0:
+  version "8.2.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
+  integrity sha1-k2POhMEMmkDmx1N0jhRBtgyKC4E=
+  dependencies:
+    find-cache-dir "^3.3.1"
+    loader-utils "^1.4.0"
+    make-dir "^3.1.0"
+    schema-utils "^2.6.5"
+
+babel-plugin-add-import-extension@^1.4.3:
+  version "1.5.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-add-import-extension/-/babel-plugin-add-import-extension-1.5.0.tgz#c174bb3a724dc1d291ce38e4d97659da08897f27"
+  integrity sha1-wXS7OnJNwdKRzjjk2XZZ2giJfyc=
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.13.0"
+
+babel-plugin-dynamic-import-node@^2.3.0, babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
   integrity sha1-hP2hnJduxcbe/vV/lCez3vZuF6M=
   dependencies:
     object.assign "^4.1.0"
+
+babel-plugin-emotion@^10.0.27:
+  version "10.2.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-emotion/-/babel-plugin-emotion-10.2.2.tgz#a1fe3503cff80abfd0bdda14abd2e8e57a79d17d"
+  integrity sha1-of41A8/4Cr/QvdoUq9Lo5Xp50X0=
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@emotion/hash" "0.8.0"
+    "@emotion/memoize" "0.7.4"
+    "@emotion/serialize" "^0.11.16"
+    babel-plugin-macros "^2.0.0"
+    babel-plugin-syntax-jsx "^6.18.0"
+    convert-source-map "^1.5.0"
+    escape-string-regexp "^1.0.5"
+    find-root "^1.1.0"
+    source-map "^0.5.7"
 
 babel-plugin-istanbul@^6.0.0:
   version "6.0.0"
@@ -2595,7 +4311,7 @@ babel-plugin-jest-hoist@^26.6.2:
     "@types/babel__core" "^7.0.0"
     "@types/babel__traverse" "^7.0.6"
 
-babel-plugin-macros@2.8.0:
+babel-plugin-macros@2.8.0, babel-plugin-macros@^2.0.0, babel-plugin-macros@^2.8.0:
   version "2.8.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-macros/-/babel-plugin-macros-2.8.0.tgz#0f958a7cc6556b1e65344465d99111a1e5e10138"
   integrity sha1-D5WKfMZVax5lNERl2ZERoeXhATg=
@@ -2609,34 +4325,44 @@ babel-plugin-named-asset-import@^0.3.7:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.3.7.tgz#156cd55d3f1228a5765774340937afc8398067dd"
   integrity sha1-FWzVXT8SKKV2V3Q0CTevyDmAZ90=
 
-babel-plugin-polyfill-corejs2@^0.1.4:
-  version "0.1.10"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.1.10.tgz#a2c5c245f56c0cac3dbddbf0726a46b24f0f81d1"
-  integrity sha1-osXCRfVsDKw9vdvwcmpGsk8PgdE=
+babel-plugin-polyfill-corejs2@^0.2.0:
+  version "0.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.2.0.tgz#686775bf9a5aa757e10520903675e3889caeedc4"
+  integrity sha1-aGd1v5pap1fhBSCQNnXjiJyu7cQ=
   dependencies:
-    "@babel/compat-data" "^7.13.0"
-    "@babel/helper-define-polyfill-provider" "^0.1.5"
+    "@babel/compat-data" "^7.13.11"
+    "@babel/helper-define-polyfill-provider" "^0.2.0"
     semver "^6.1.1"
 
-babel-plugin-polyfill-corejs3@^0.1.3:
-  version "0.1.7"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.1.7.tgz#80449d9d6f2274912e05d9e182b54816904befd0"
-  integrity sha1-gESdnW8idJEuBdnhgrVIFpBL79A=
+babel-plugin-polyfill-corejs3@^0.2.0:
+  version "0.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.2.0.tgz#f4b4bb7b19329827df36ff56f6e6d367026cb7a2"
+  integrity sha1-9LS7exkymCffNv9W9ubTZwJst6I=
   dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.1.5"
-    core-js-compat "^3.8.1"
+    "@babel/helper-define-polyfill-provider" "^0.2.0"
+    core-js-compat "^3.9.1"
 
-babel-plugin-polyfill-regenerator@^0.1.2:
-  version "0.1.6"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.1.6.tgz#0fe06a026fe0faa628ccc8ba3302da0a6ce02f3f"
-  integrity sha1-D+BqAm/g+qYozMi6MwLaCmzgLz8=
+babel-plugin-polyfill-regenerator@^0.2.0:
+  version "0.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.2.0.tgz#853f5f5716f4691d98c84f8069c7636ea8da7ab8"
+  integrity sha1-hT9fVxb0aR2YyE+Aacdjbqjaerg=
   dependencies:
-    "@babel/helper-define-polyfill-provider" "^0.1.5"
+    "@babel/helper-define-polyfill-provider" "^0.2.0"
+
+babel-plugin-syntax-jsx@^6.18.0:
+  version "6.18.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
+  integrity sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
 
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
   integrity sha1-/WU28rzhODb/o6VFjEkDpZe7O/U=
+
+babel-plugin-transform-ensure-ignore@^0.1.0:
+  version "0.1.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-transform-ensure-ignore/-/babel-plugin-transform-ensure-ignore-0.1.0.tgz#28120414ac63416d79b97d1165f03cf275835570"
+  integrity sha1-KBIEFKxjQW15uX0RZfA88nWDVXA=
 
 babel-plugin-transform-object-rest-spread@^6.26.0:
   version "6.26.0"
@@ -2650,6 +4376,16 @@ babel-plugin-transform-react-remove-prop-types@0.4.24:
   version "0.4.24"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.24.tgz#f2edaf9b4c6a5fbe5c1d678bfb531078c1555f3a"
   integrity sha1-8u2vm0xqX75cHWeL+1MQeMFVXzo=
+
+babel-plugin-transform-remove-console@^6.9.4:
+  version "6.9.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-transform-remove-console/-/babel-plugin-transform-remove-console-6.9.4.tgz#b980360c067384e24b357a588d807d3c83527780"
+  integrity sha1-uYA2DAZzhOJLNXpYjYB9PINSd4A=
+
+babel-plugin-transform-undefined-to-void@^6.9.4:
+  version "6.9.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/babel-plugin-transform-undefined-to-void/-/babel-plugin-transform-undefined-to-void-6.9.4.tgz#be241ca81404030678b748717322b89d0c8fe280"
+  integrity sha1-viQcqBQEAwZ4t0hxcyK4nQyP4oA=
 
 babel-preset-current-node-syntax@^1.0.0:
   version "1.0.1"
@@ -2825,6 +4561,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bowser@^1.9.4:
+  version "1.9.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/bowser/-/bowser-1.9.4.tgz#890c58a2813a9d3243704334fa81b96a5c150c9a"
+  integrity sha1-iQxYooE6nTJDcEM0+oG5alwVDJo=
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -3141,6 +4882,37 @@ caseless@~0.12.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
+chai-as-promised@^7.1.1:
+  version "7.1.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/chai-as-promised/-/chai-as-promised-7.1.1.tgz#08645d825deb8696ee61725dbf590c012eb00ca0"
+  integrity sha1-CGRdgl3rhpbuYXJdv1kMAS6wDKA=
+  dependencies:
+    check-error "^1.0.2"
+
+chai-exclude@^2.0.2:
+  version "2.0.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/chai-exclude/-/chai-exclude-2.0.3.tgz#38c159a5e098971b795cafd492d48ae58d651a23"
+  integrity sha1-OMFZpeCYlxt5XK/UktSK5Y1lGiM=
+  dependencies:
+    fclone "^1.0.11"
+
+chai-string@^1.5.0:
+  version "1.5.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/chai-string/-/chai-string-1.5.0.tgz#0bdb2d8a5f1dbe90bc78ec493c1c1c180dd4d3d2"
+  integrity sha1-C9stil8dvpC8eOxJPBwcGA3U09I=
+
+chai@^4.2.0:
+  version "4.3.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/chai/-/chai-4.3.4.tgz#b55e655b31e1eac7099be4c08c21964fce2e6c49"
+  integrity sha1-tV5lWzHh6scJm+TAjCGWT84ubEk=
+  dependencies:
+    assertion-error "^1.1.0"
+    check-error "^1.0.2"
+    deep-eql "^3.0.1"
+    get-func-name "^2.0.0"
+    pathval "^1.1.1"
+    type-detect "^4.0.5"
+
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -3170,6 +4942,11 @@ char-regex@^1.0.2:
   version "1.0.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha1-10Q1giYhf5ge1Y9Hmx1rzClUXc8=
+
+check-error@^1.0.2:
+  version "1.0.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
+  integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
 
 check-types@^11.1.1:
   version "11.1.2"
@@ -3285,6 +5062,11 @@ cliui@^6.0.0:
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
+clsx@^1.0.4:
+  version "1.1.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -3298,6 +5080,11 @@ coa@^2.0.2:
     "@types/q" "^1.5.1"
     chalk "^2.4.1"
     q "^1.1.2"
+
+codemirror@5.48.4:
+  version "5.48.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/codemirror/-/codemirror-5.48.4.tgz#4210fbe92be79a88f0eea348fab3ae78da85ce47"
+  integrity sha1-QhD76Svnmojw7qNI+rOueNqFzkc=
 
 collect-v8-coverage@^1.0.0:
   version "1.0.1"
@@ -3468,7 +5255,7 @@ content-type@~1.0.4:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
 
-convert-source-map@1.7.0, convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
+convert-source-map@1.7.0, convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
   integrity sha1-F6LLiC1/d9NJBYXizmxSRCSjpEI=
@@ -3507,7 +5294,7 @@ copy-descriptor@^0.1.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-core-js-compat@^3.6.2, core-js-compat@^3.8.1, core-js-compat@^3.9.0:
+core-js-compat@^3.6.2, core-js-compat@^3.9.0, core-js-compat@^3.9.1:
   version "3.10.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/core-js-compat/-/core-js-compat-3.10.1.tgz#62183a3a77ceeffcc420d907a3e6fc67d9b27f1c"
   integrity sha1-Yhg6OnfO7/zEINkHo+b8Z9myfxw=
@@ -3525,7 +5312,7 @@ core-js@^2.4.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
 
-core-js@^3.6.5:
+core-js@^3.2.1, core-js@^3.6.5:
   version "3.10.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/core-js/-/core-js-3.10.1.tgz#e683963978b6806dcc6c0a4a8bd4ab0bdaf3f21a"
   integrity sha1-5oOWOXi2gG3MbApKi9SrC9rz8ho=
@@ -3724,6 +5511,14 @@ css-tree@^1.1.2:
     mdn-data "2.0.14"
     source-map "^0.6.1"
 
+css-vendor@^2.0.8:
+  version "2.0.8"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/css-vendor/-/css-vendor-2.0.8.tgz#e47f91d3bd3117d49180a3c935e62e3d9f7f449d"
+  integrity sha1-5H+R070xF9SRgKPJNeYuPZ9/RJ0=
+  dependencies:
+    "@babel/runtime" "^7.8.3"
+    is-in-browser "^1.0.2"
+
 css-what@^3.2.1:
   version "3.4.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/css-what/-/css-what-3.4.2.tgz#ea7026fcb01777edbde52124e21f327e7ae950e4"
@@ -3860,6 +5655,16 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
+csstype@^2.5.2, csstype@^2.5.7:
+  version "2.6.16"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/csstype/-/csstype-2.6.16.tgz#544d69f547013b85a40d15bff75db38f34fe9c39"
+  integrity sha1-VE1p9UcBO4WkDRW/912zjzT+nDk=
+
+csstype@^3.0.2:
+  version "3.0.7"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
+  integrity sha1-Kl+3XhAV6E3RVpL3HomhRQKQlQs=
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
@@ -3934,6 +5739,13 @@ dedent@^0.7.0:
   version "0.7.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
+
+deep-eql@^3.0.1:
+  version "3.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/deep-eql/-/deep-eql-3.0.1.tgz#dfc9404400ad1c8fe023e7da1df1c147c4b444df"
+  integrity sha1-38lARACtHI/gI+faHfHBR8S0RN8=
+  dependencies:
+    type-detect "^4.0.0"
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -4053,6 +5865,11 @@ diff-sequences@^26.6.2:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/diff-sequences/-/diff-sequences-26.6.2.tgz#48ba99157de1923412eed41db6b6d4aa9ca7c0b1"
   integrity sha1-SLqZFX3hkjQS7tQdtrbUqpynwLE=
 
+diff@^3.5.0:
+  version "3.5.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
+  integrity sha1-gAwN0eCov7yVg1wgKtIg/jF+WhI=
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -4068,6 +5885,11 @@ dir-glob@^3.0.1:
   integrity sha1-Vtv3PZkqSpO6FYT0U0Bj/S5BcX8=
   dependencies:
     path-type "^4.0.0"
+
+dirty-chai@^2.0.1:
+  version "2.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/dirty-chai/-/dirty-chai-2.0.1.tgz#6b2162ef17f7943589da840abc96e75bda01aff3"
+  integrity sha1-ayFi7xf3lDWJ2oQKvJbnW9oBr/M=
 
 dns-equal@^1.0.0:
   version "1.0.0"
@@ -4122,6 +5944,14 @@ dom-converter@^0.2:
   integrity sha1-ZyGp2u4uKTaClVtq/kFncWJ7t2g=
   dependencies:
     utila "~0.4"
+
+dom-helpers@^5.0.1:
+  version "5.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/dom-helpers/-/dom-helpers-5.2.0.tgz#57fd054c5f8f34c52a3eeffdb7e7e93cd357d95b"
+  integrity sha1-V/0FTF+PNMUqPu/9t+fpPNNX2Vs=
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 dom-serializer@0:
   version "0.2.2"
@@ -4274,6 +6104,15 @@ emojis-list@^3.0.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha1-VXBmIEatKeLpFucariYKvf9Pang=
 
+emotion-theming@^10.0.27:
+  version "10.0.27"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/emotion-theming/-/emotion-theming-10.0.27.tgz#1887baaec15199862c89b1b984b79806f2b9ab10"
+  integrity sha1-GIe6rsFRmYYsibG5hLeYBvK5qxA=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    "@emotion/weak-memoize" "0.2.5"
+    hoist-non-react-statics "^3.3.0"
+
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
@@ -4395,7 +6234,7 @@ escalade@^3.0.2, escalade@^3.1.1:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha1-2M/ccACWXFoBdLSoLqpcBVJ0LkA=
 
-escape-html@~1.0.3:
+escape-html@^1, escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
@@ -4846,12 +6685,17 @@ extsprintf@^1.2.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+fast-deep-equal@^2:
+  version "2.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
+  integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha1-On1WtVnWy8PrUSMlJE5hmmXGxSU=
 
-fast-glob@^3.1.1:
+fast-glob@^3.0.3, fast-glob@^3.1.1:
   version "3.2.5"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/fast-glob/-/fast-glob-3.2.5.tgz#7939af2a656de79a4f1901903ee8adcaa7cb9661"
   integrity sha1-eTmvKmVt55pPGQGQPuityqfLlmE=
@@ -4893,6 +6737,11 @@ fb-watchman@^2.0.0:
   integrity sha1-/IT7OdJwnPP/bXQ3BhV7tXCKioU=
   dependencies:
     bser "2.1.1"
+
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+  integrity sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
 
 figgy-pudding@^3.5.1:
   version "3.5.2"
@@ -4971,6 +6820,11 @@ find-cache-dir@^3.3.1:
     commondir "^1.0.1"
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
+
+find-root@^1.1.0:
+  version "1.1.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
+  integrity sha1-q8/Iunb3CMQql7PWhbfpRQv7nOQ=
 
 find-up@4.1.0, find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
@@ -5165,6 +7019,11 @@ get-caller-file@^2.0.1:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
 
+get-func-name@^2.0.0:
+  version "2.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/get-func-name/-/get-func-name-2.0.0.tgz#ead774abee72e20409433a066366023dd6887a41"
+  integrity sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=
+
 get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
   version "1.1.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/get-intrinsic/-/get-intrinsic-1.1.1.tgz#15f59f376f855c446963948f0d24cd3637b4abc6"
@@ -5282,6 +7141,20 @@ globby@11.0.1:
     fast-glob "^3.1.1"
     ignore "^5.1.4"
     merge2 "^1.3.0"
+    slash "^3.0.0"
+
+globby@^10.0.1:
+  version "10.0.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/globby/-/globby-10.0.2.tgz#277593e745acaa4646c3ab411289ec47a0392543"
+  integrity sha1-J3WT50WsqkZGw6tBEonsR6A5JUM=
+  dependencies:
+    "@types/glob" "^7.1.1"
+    array-union "^2.1.0"
+    dir-glob "^3.0.1"
+    fast-glob "^3.0.3"
+    glob "^7.1.3"
+    ignore "^5.1.1"
+    merge2 "^1.2.3"
     slash "^3.0.0"
 
 globby@^11.0.1:
@@ -5433,6 +7306,18 @@ hex-color-regex@^1.1.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
 
+history@^4.9.0:
+  version "4.10.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/history/-/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
+  integrity sha1-MzcaZeOoOyZ0NOKz87G0xYqtTPM=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    loose-envify "^1.2.0"
+    resolve-pathname "^3.0.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+    value-equal "^1.0.1"
+
 hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -5441,6 +7326,13 @@ hmac-drbg@^1.0.1:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
+
+hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
 
 hoopy@^0.1.4:
   version "0.1.4"
@@ -5609,6 +7501,11 @@ human-signals@^1.1.1:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha1-xbHNFPUK6uCatsWf5jujOV/k36M=
 
+hyphenate-style-name@^1.0.3:
+  version "1.0.4"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
+  integrity sha1-aRh5r44iCupXUOiCfbTvYqVONh0=
+
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -5645,7 +7542,7 @@ ignore@^4.0.6:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
 
-ignore@^5.1.4:
+ignore@^5.1.1, ignore@^5.1.4:
   version "5.1.8"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha1-8VCotQo0KJsz4i9YiavU2AFvDlc=
@@ -5705,6 +7602,13 @@ imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
+
+indefinite-observable@^2.0.1:
+  version "2.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/indefinite-observable/-/indefinite-observable-2.0.1.tgz#574af29bfbc17eb5947793797bddc94c9d859400"
+  integrity sha1-V0rym/vBfrWUd5N5e93JTJ2FlAA=
+  dependencies:
+    symbol-observable "1.2.0"
 
 indent-string@^4.0.0:
   version "4.0.0"
@@ -5977,6 +7881,11 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   dependencies:
     is-extglob "^2.1.1"
 
+is-in-browser@^1.0.2, is-in-browser@^1.1.3:
+  version "1.1.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/is-in-browser/-/is-in-browser-1.1.3.tgz#56ff4db683a078c6082eb95dad7dc62e1d04f835"
+  integrity sha1-Vv9NtoOgeMYILrldrX3GLh0E+DU=
+
 is-module@^1.0.0:
   version "1.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/is-module/-/is-module-1.0.0.tgz#3258fb69f78c14d5b815d664336b4cffb6441591"
@@ -6116,6 +8025,11 @@ is-wsl@^2.1.1, is-wsl@^2.2.0:
   integrity sha1-dKTHbnfKn9P5MvKQwX6jJs0VcnE=
   dependencies:
     is-docker "^2.0.0"
+
+isarray@0.0.1:
+  version "0.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
 
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
@@ -6710,6 +8624,13 @@ json-stable-stringify-without-jsonify@^1.0.1:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
 
+json-stable-stringify@^1.0.1:
+  version "1.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz#9a759d39c5f2ff503fd5300646ed445f88c4f9af"
+  integrity sha1-mnWdOcXy/1A/1TAGRu1EX4jE+a8=
+  dependencies:
+    jsonify "~0.0.0"
+
 json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
@@ -6750,6 +8671,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonify@~0.0.0:
+  version "0.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
+  integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
+
 jsprim@^1.2.2:
   version "1.4.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
@@ -6760,6 +8686,77 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jss-plugin-camel-case@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-camel-case/-/jss-plugin-camel-case-10.6.0.tgz#93d2cd704bf0c4af70cc40fb52d74b8a2554b170"
+  integrity sha1-k9LNcEvwxK9wzED7UtdLiiVUsXA=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    hyphenate-style-name "^1.0.3"
+    jss "10.6.0"
+
+jss-plugin-default-unit@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-default-unit/-/jss-plugin-default-unit-10.6.0.tgz#af47972486819b375f0f3a9e0213403a84b5ef3b"
+  integrity sha1-r0eXJIaBmzdfDzqeAhNAOoS17zs=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+
+jss-plugin-global@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-global/-/jss-plugin-global-10.6.0.tgz#3e8011f760f399cbadcca7f10a485b729c50e3ed"
+  integrity sha1-PoAR92DzmcutzKfxCkhbcpxQ4+0=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+
+jss-plugin-nested@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-nested/-/jss-plugin-nested-10.6.0.tgz#5f83c5c337d3b38004834e8426957715a0251641"
+  integrity sha1-X4PFwzfTs4AEg06EJpV3FaAlFkE=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-props-sort@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-props-sort/-/jss-plugin-props-sort-10.6.0.tgz#297879f35f9fe21196448579fee37bcde28ce6bc"
+  integrity sha1-KXh581+f4hGWRIV5/uN7zeKM5rw=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+
+jss-plugin-rule-value-function@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.6.0.tgz#3c1a557236a139d0151e70a82c810ccce1c1c5ea"
+  integrity sha1-PBpVcjahOdAVHnCoLIEMzOHBxeo=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.6.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-vendor-prefixer@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.6.0.tgz#e1fcd499352846890c38085b11dbd7aa1c4f2c78"
+  integrity sha1-4fzUmTUoRokMOAhbEdvXqhxPLHg=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    css-vendor "^2.0.8"
+    jss "10.6.0"
+
+jss@10.6.0, jss@^10.5.1:
+  version "10.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jss/-/jss-10.6.0.tgz#d92ff9d0f214f65ca1718591b68e107be4774149"
+  integrity sha1-2S/50PIU9lyhcYWRto4Qe+R3QUk=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    csstype "^3.0.2"
+    indefinite-observable "^2.0.1"
+    is-in-browser "^1.1.3"
+    tiny-warning "^1.0.2"
+
 "jsx-ast-utils@^2.4.1 || ^3.0.0", jsx-ast-utils@^3.1.0:
   version "3.2.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/jsx-ast-utils/-/jsx-ast-utils-3.2.0.tgz#41108d2cec408c3453c1bbe8a4aae9e1e2bd8f82"
@@ -6767,6 +8764,16 @@ jsprim@^1.2.2:
   dependencies:
     array-includes "^3.1.2"
     object.assign "^4.1.2"
+
+just-extend@^4.0.2:
+  version "4.2.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/just-extend/-/just-extend-4.2.1.tgz#ef5e589afb61e5d66b24eca749409a8939a8c744"
+  integrity sha1-715Ymvth5dZrJOynSUCaiTmox0Q=
+
+keycode@^2:
+  version "2.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
+  integrity sha1-PQr1bce4uOXLqNCpfxByBO7CKwQ=
 
 killable@^1.0.1:
   version "1.0.1"
@@ -6968,7 +8975,7 @@ lodash.uniq@^4.5.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-"lodash@>=3.5 <5", lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@^4.7.0:
+"lodash@>=3.5 <5", lodash@^4, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
@@ -6978,7 +8985,19 @@ loglevel@^1.6.8:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha1-AF/eL15uRwaPk1/yhXPhJe9y8Zc=
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+lolex@^4.2.0:
+  version "4.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/lolex/-/lolex-4.2.0.tgz#ddbd7f6213ca1ea5826901ab1222b65d714b3cd7"
+  integrity sha1-3b1/YhPKHqWCaQGrEiK2XXFLPNc=
+
+lolex@^5.0.1:
+  version "5.1.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/lolex/-/lolex-5.1.2.tgz#953694d098ce7c07bc5ed6d0e42bc6c0c6d5a367"
+  integrity sha1-lTaU0JjOfAe8XtbQ5CvGwMbVo2c=
+  dependencies:
+    "@sinonjs/commons" "^1.7.0"
+
+loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -7026,7 +9045,7 @@ make-dir@^2.0.0:
     pify "^4.0.1"
     semver "^5.6.0"
 
-make-dir@^3.0.0, make-dir@^3.0.2:
+make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
   integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
@@ -7102,7 +9121,7 @@ merge-stream@^2.0.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
 
-merge2@^1.3.0:
+merge2@^1.2.3, merge2@^1.3.0:
   version "1.4.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
@@ -7183,6 +9202,14 @@ min-indent@^1.0.0:
   version "1.0.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha1-pj9oFnOzBXH76LwlaGrnRu76mGk=
+
+mini-create-react-context@^0.4.0:
+  version "0.4.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/mini-create-react-context/-/mini-create-react-context-0.4.1.tgz#072171561bfdc922da08a60c2197a497cc2d1d5e"
+  integrity sha1-ByFxVhv9ySLaCKYMIZekl8wtHV4=
+  dependencies:
+    "@babel/runtime" "^7.12.1"
+    tiny-warning "^1.0.3"
 
 mini-css-extract-plugin@0.11.3:
   version "0.11.3"
@@ -7288,6 +9315,18 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
 
+moment-timezone@^0.5:
+  version "0.5.33"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/moment-timezone/-/moment-timezone-0.5.33.tgz#b252fd6bb57f341c9b59a5ab61a8e51a73bbd22c"
+  integrity sha1-slL9a7V/NBybWaWrYajlGnO70iw=
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0":
+  version "2.29.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -7392,6 +9431,17 @@ nice-try@^1.0.4:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha1-ozeKdpbOfSI+iPybdkvX7xCJ42Y=
 
+nise@^1.5.2:
+  version "1.5.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/nise/-/nise-1.5.3.tgz#9d2cfe37d44f57317766c6e9408a359c5d3ac1f7"
+  integrity sha1-nSz+N9RPVzF3ZsbpQIo1nF06wfc=
+  dependencies:
+    "@sinonjs/formatio" "^3.2.1"
+    "@sinonjs/text-encoding" "^0.7.1"
+    just-extend "^4.0.2"
+    lolex "^5.0.1"
+    path-to-regexp "^1.7.0"
+
 no-case@^3.0.4:
   version "3.0.4"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
@@ -7399,6 +9449,11 @@ no-case@^3.0.4:
   dependencies:
     lower-case "^2.0.2"
     tslib "^2.0.3"
+
+no-scroll@^2.1.0:
+  version "2.1.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/no-scroll/-/no-scroll-2.1.1.tgz#f37e08cb159b75a5bdbfc0a87cd9223e120e6e27"
+  integrity sha1-834IyxWbdaW9v8CofNkiPhIObic=
 
 node-forge@^0.10.0:
   version "0.10.0"
@@ -7943,6 +9998,13 @@ path-to-regexp@0.1.7:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path-to-regexp@^1.7.0:
+  version "1.8.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/path-to-regexp/-/path-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
+  integrity sha1-iHs7qdhDk+h6CgufTLdWGYtTVIo=
+  dependencies:
+    isarray "0.0.1"
+
 path-type@^2.0.0:
   version "2.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
@@ -7954,6 +10016,11 @@ path-type@^4.0.0:
   version "4.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs=
+
+pathval@^1.1.1:
+  version "1.1.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/pathval/-/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
+  integrity sha1-hTTnenfOesWiUS6iHg/bj89sPY0=
 
 pbkdf2@^3.0.3:
   version "3.1.1"
@@ -8039,6 +10106,11 @@ pnp-webpack-plugin@1.6.4:
   integrity sha1-yXEaxNxIpoXauvyG+Lbdn434QUk=
   dependencies:
     ts-pnp "^1.1.6"
+
+popper.js@1.16.1-lts:
+  version "1.16.1-lts"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/popper.js/-/popper.js-1.16.1-lts.tgz#cf6847b807da3799d80ee3d6d2f90df8a3f50b05"
+  integrity sha1-z2hHuAfaN5nYDuPW0vkN+KP1CwU=
 
 portfinder@^1.0.26:
   version "1.0.28"
@@ -8752,6 +10824,16 @@ pretty-error@^2.1.1:
     lodash "^4.17.20"
     renderkid "^2.0.4"
 
+pretty-format@^24.9.0:
+  version "24.9.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/pretty-format/-/pretty-format-24.9.0.tgz#12fac31b37019a4eea3c11aa9a959eb7628aa7c9"
+  integrity sha1-EvrDGzcBmk7qPBGqmpWet2KKp8k=
+  dependencies:
+    "@jest/types" "^24.9.0"
+    ansi-regex "^4.0.0"
+    ansi-styles "^3.2.0"
+    react-is "^16.8.4"
+
 pretty-format@^26.0.0, pretty-format@^26.6.0, pretty-format@^26.6.2:
   version "26.6.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/pretty-format/-/pretty-format-26.6.2.tgz#e35c2705f14cb7fe2fe94fa078345b444120fc93"
@@ -8805,7 +10887,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.7.2:
+"prop-types@>= 15.7.0", prop-types@^15, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -8981,6 +11063,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-codemirror2@^7.1.0:
+  version "7.2.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-codemirror2/-/react-codemirror2-7.2.1.tgz#38dab492fcbe5fb8ebf5630e5bb7922db8d3a10c"
+  integrity sha1-ONq0kvy+X7jr9WMOW7eSLbjToQw=
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -9025,12 +11112,12 @@ react-error-overlay@^6.0.9:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha1-PHQwEMk1lgjDdezWvHbzXZOZWwo=
 
-react-is@^16.8.1:
+react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-is@^17.0.1:
+"react-is@^16.8.0 || ^17.0.0", react-is@^17.0.1:
   version "17.0.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
@@ -9039,6 +11126,35 @@ react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha1-ch1GV2ctQAxePHXQY8SoX7LV1o8=
+
+react-router-dom@^5.2.0:
+  version "5.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
+  integrity sha1-nmWk0MReEyieZsexfH4XXQ6hVmI=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    history "^4.9.0"
+    loose-envify "^1.3.1"
+    prop-types "^15.6.2"
+    react-router "5.2.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+
+react-router@5.2.0, react-router@^5.2.0:
+  version "5.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-router/-/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
+  integrity sha1-Qk51ZByodH+/duXsyml4GqN+opM=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    history "^4.9.0"
+    hoist-non-react-statics "^3.1.0"
+    loose-envify "^1.3.1"
+    mini-create-react-context "^0.4.0"
+    path-to-regexp "^1.7.0"
+    prop-types "^15.6.2"
+    react-is "^16.6.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
 
 react-scripts@4.0.3:
   version "4.0.3"
@@ -9105,6 +11221,16 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-transition-group@^4.4.0:
+  version "4.4.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
+  integrity sha1-Y4aPkyWjjqXulTXYKDJ/hXczRck=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react@^17.0.2:
   version "17.0.2"
@@ -9403,6 +11529,11 @@ resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
+
+resolve-pathname@^3.0.0:
+  version "3.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/resolve-pathname/-/resolve-pathname-3.0.0.tgz#99d02224d3cf263689becbb393bc560313025dcd"
+  integrity sha1-mdAiJNPPJjaJvsuzk7xWAxMCXc0=
 
 resolve-url-loader@^3.1.2:
   version "3.1.2"
@@ -9851,10 +11982,33 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+sinon-chai@^3.3.0:
+  version "3.6.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/sinon-chai/-/sinon-chai-3.6.0.tgz#25bd59a37ef8990245e085a40f1f79d6bf023b7a"
+  integrity sha1-Jb1Zo374mQJF4IWkDx951r8CO3o=
+
+sinon@^7.4.2:
+  version "7.5.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/sinon/-/sinon-7.5.0.tgz#e9488ea466070ea908fd44a3d6478fd4923c67ec"
+  integrity sha1-6UiOpGYHDqkI/USj1keP1JI8Z+w=
+  dependencies:
+    "@sinonjs/commons" "^1.4.0"
+    "@sinonjs/formatio" "^3.2.1"
+    "@sinonjs/samsam" "^3.3.3"
+    diff "^3.5.0"
+    lolex "^4.2.0"
+    nise "^1.5.2"
+    supports-color "^5.5.0"
+
 sisteransi@^1.0.5:
   version "1.0.5"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha1-E01oEpd1ZDfMBcoBNw06elcQde0=
+
+sizzle@^2.3.4:
+  version "2.3.6"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/sizzle/-/sizzle-2.3.6.tgz#ecc604ba69e4848d879b6a7fcf5409a270c6c3ec"
+  integrity sha1-7MYEumnkhI2Hm2p/z1QJonDGw+w=
 
 slash@^3.0.0:
   version "3.0.0"
@@ -9970,7 +12124,7 @@ source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, sourc
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
 
-source-map@^0.5.0, source-map@^0.5.6:
+source-map@^0.5.0, source-map@^0.5.6, source-map@^0.5.7:
   version "0.5.7"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
@@ -10308,7 +12462,7 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-supports-color@^5.3.0:
+supports-color@^5.3.0, supports-color@^5.5.0:
   version "5.5.0"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
@@ -10360,6 +12514,11 @@ svgo@^1.0.0, svgo@^1.2.2:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+symbol-observable@1.2.0:
+  version "1.2.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -10512,6 +12671,21 @@ timsort@^0.3.0:
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-invariant@^1.0.2:
+  version "1.1.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
+  integrity sha1-Y0xfjv3CdxS384bDXmdgmR0jCHU=
+
+tiny-warning@^1.0.0, tiny-warning@^1.0.2, tiny-warning@^1.0.3:
+  version "1.0.3"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
+  integrity sha1-lKMNtFPfTGQ9D9VmBg1gqHXYR1Q=
+
+tinycolor2@^1.4.2:
+  version "1.4.2"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
+  integrity sha1-P2pNEHGtB2dtf6Ry4frECnGdiAM=
+
 tmpl@1.0.x:
   version "1.0.4"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
@@ -10656,7 +12830,7 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
-type-detect@4.0.8:
+type-detect@4.0.8, type-detect@^4.0.0, type-detect@^4.0.5:
   version "4.0.8"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha1-dkb7XxiHHPu3dJ5pvTmmOI63RQw=
@@ -10944,6 +13118,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+value-equal@^1.0.1:
+  version "1.0.1"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/value-equal/-/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
+  integrity sha1-Hgt5THNMXAyt4XnEN9NW2TGjTWw=
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -10981,6 +13160,11 @@ w3c-xmlserializer@^2.0.0:
   integrity sha1-PnEEoFt1FGzGD1ZDgLf2g6zxAgo=
   dependencies:
     xml-name-validator "^3.0.0"
+
+wait-for-expect@^2.0.0:
+  version "2.0.0"
+  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/wait-for-expect/-/wait-for-expect-2.0.0.tgz#22b24cbd94a59acbf4e4cd13c8d3cd022ddf0cdf"
+  integrity sha1-IrJMvZSlmsv05M0TyNPNAi3fDN8=
 
 walker@^1.0.7, walker@~1.0.5:
   version "1.0.7"

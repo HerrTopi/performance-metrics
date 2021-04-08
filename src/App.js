@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import Metric from './Metric'
+import Setup from './Setup'
+import Statistics from './Statistics'
+import ButtonInstv8 from './components/ButtonInstv8'
+import ButtonMaterialUI from './components/ButtonMaterialUI'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-function App() {
+const routes = [{
+  path:'button',
+  component:  <ButtonInstv8/>
+},
+{
+  path:'button-mui',
+  component:  <ButtonMaterialUI/>
+}
+]
+
+const App=()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route path="/statistics">  
+              <Statistics/>
+          </Route>
+          {routes.map(route=>(
+             <Route key={route.path} path={`/${route.path}`}>  
+             <Metric>
+               {route.component}
+             </Metric>
+         </Route>
+          ))}
+          <Route path="/">  
+              <Setup routes={routes}/>
+          </Route>
+        </Switch>
+    </Router>
     </div>
   );
 }
