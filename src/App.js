@@ -8,24 +8,26 @@ import {
 } from "react-router-dom";
 import RenderComponent from './RenderComponent'
 
+import ALERT_IUI from './components/ALERT_IUI'
+import APPNAV_IUI from './components/APPNAV_IUI'
 import BUTTON_IUI from './components/BUTTON_IUI'
 import BUTTON_MUI from './components/BUTTON_MUI'
-import BUTTON_PRIMARY_SMALL_IUI from './components/BUTTON_PRIMARY_SMALL_IUI'
-import BUTTON_PRIMARY_SMALL_MUI from './components/BUTTON_PRIMARY_SMALL_MUI'
 import BUTTON_ICON_IUI from './components/BUTTON_ICON_IUI'
 import BUTTON_ICON_MUI from './components/BUTTON_ICON_MUI'
-import ICONBUTTON_IUI from './components/ICONBUTTON_IUI'
-import ICONBUTTON_MUI from './components/ICONBUTTON_MUI'
-import ICON_IUI from './components/ICON_IUI'
-import ICON_MUI from './components/ICON_MUI'
-import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
-import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
-import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
-import VIEW_IUI from './components/VIEW_IUI'
-import LINK_IUI from './components/LINK_IUI'
-import LINK_MUI from './components/LINK_MUI'
+import BUTTON_PRIMARY_SMALL_IUI from './components/BUTTON_PRIMARY_SMALL_IUI'
+import BUTTON_PRIMARY_SMALL_MUI from './components/BUTTON_PRIMARY_SMALL_MUI'
 import FLEX_IUI from './components/FLEX_IUI'
 import FLEX_MUI from './components/FLEX_MUI'
+import ICON_IUI from './components/ICON_IUI'
+import ICON_MUI from './components/ICON_MUI'
+import ICONBUTTON_IUI from './components/ICONBUTTON_IUI'
+import ICONBUTTON_MUI from './components/ICONBUTTON_MUI'
+import LINK_IUI from './components/LINK_IUI'
+import LINK_MUI from './components/LINK_MUI'
+import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
+import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
+import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
+import VIEW_IUI from './components/VIEW_IUI'
 
 /*
   const output = []
@@ -38,8 +40,19 @@ import FLEX_MUI from './components/FLEX_MUI'
 
 const routes = [
   {
-    path: 'SELECT_DEFAULT_EXAMPLE_IUI',
-    component: <SELECT_DEFAULT_EXAMPLE_IUI />
+    path: 'ALERT_IUI',
+    component: <ALERT_IUI />,
+    count: 1
+  },
+  {
+    path: 'ALERT_IUI_X100',
+    component: <ALERT_IUI />,
+    count: 100
+  },
+  {
+    path: 'APPNAV_IUI',
+    component: <APPNAV_IUI />,
+    count: 1
   },
   {
     path: 'BUTTON_IUI',
@@ -52,22 +65,14 @@ const routes = [
     count: 1
   },
   {
-    path: 'BUTTON_X100_IUI',
+    path: 'BUTTON_IUI_X100',
     component: <BUTTON_IUI />,
     count: 100
   },
   {
-    path: 'BUTTON_X100_MUI',
+    path: 'BUTTON_MUI_X100',
     component: <BUTTON_MUI />,
     count: 100
-  },
-  {
-    path: 'BUTTON_PRIMARY_SMALL_IUI',
-    component: <BUTTON_PRIMARY_SMALL_IUI />
-  },
-  {
-    path: 'BUTTON_PRIMARY_SMALL_MUI',
-    component: <BUTTON_PRIMARY_SMALL_MUI />
   },
   {
     path: 'BUTTON_ICON_IUI',
@@ -78,12 +83,30 @@ const routes = [
     component: <BUTTON_ICON_MUI />
   },
   {
-    path: 'ICONBUTTON_IUI',
-    component: <ICONBUTTON_IUI />
+    path: 'BUTTON_PRIMARY_SMALL_IUI',
+    component: <BUTTON_PRIMARY_SMALL_IUI />
   },
   {
-    path: 'ICONBUTTON_MUI',
-    component: <ICONBUTTON_MUI />
+    path: 'BUTTON_PRIMARY_SMALL_MUI',
+    component: <BUTTON_PRIMARY_SMALL_MUI />
+  },
+  {
+    path: 'FLEX_IUI',
+    component: <FLEX_IUI />
+  },
+  {
+    path: 'FLEX_MUI',
+    component: <FLEX_MUI />
+  },
+  {
+    path: 'FLEX_IUI_X100',
+    component: <FLEX_IUI />,
+    count: 100
+  },
+  {
+    path: 'FLEX_MUI_X100',
+    component: <FLEX_MUI />,
+    count: 100
   },
   {
     path: 'ICON_IUI',
@@ -95,41 +118,22 @@ const routes = [
     component: <ICON_MUI />
   },
   {
-    path: 'ICON_X100_IUI',
+    path: 'ICON_IUI_X100',
     component: <ICON_IUI />,
     count: 100
   },
   {
-    path: 'ICON_X100_MUI',
+    path: 'ICON_MUI_X100',
     component: <ICON_MUI />,
     count: 100
   },
   {
-    path: 'SIMPLESELECT_IUI',
-    component: <SIMPLESELECT_IUI />
+    path: 'ICONBUTTON_IUI',
+    component: <ICONBUTTON_IUI />
   },
   {
-    path: 'SIMPLESELECT_MUI',
-    component: <SIMPLESELECT_MUI />
-  },
-  {
-    path: 'SIMPLESELECT_X100_IUI',
-    component: <SIMPLESELECT_IUI />,
-    count: 100
-  },
-  {
-    path: 'SIMPLESELECT_X100_MUI',
-    component: <SIMPLESELECT_MUI />,
-    count: 100
-  },
-  {
-    path: 'VIEW_IUI',
-    component: <VIEW_IUI />
-  },
-  {
-    path: 'VIEW_X100_IUI',
-    component: <VIEW_IUI />,
-    count: 100
+    path: 'ICONBUTTON_MUI',
+    component: <ICONBUTTON_MUI />
   },
   {
     path: 'LINK_IUI',
@@ -140,33 +144,46 @@ const routes = [
     component: <LINK_MUI />
   },
   {
-    path: 'LINK_X100_IUI',
+    path: 'LINK_IUI_X100',
     component: <LINK_IUI />,
     count: 100
   },
   {
-    path: 'LINK_X100_MUI',
+    path: 'LINK_MUI_X100',
     component: <LINK_MUI />,
     count: 100
   },
   {
-    path: 'FLEX_IUI',
-    component: <FLEX_IUI />
+    path: 'SELECT_DEFAULT_EXAMPLE_IUI',
+    component: <SELECT_DEFAULT_EXAMPLE_IUI />
   },
   {
-    path: 'FLEX_MUI',
-    component: <FLEX_MUI />
+    path: 'SIMPLESELECT_IUI',
+    component: <SIMPLESELECT_IUI />
   },
   {
-    path: 'FLEX_X100_IUI',
-    component: <FLEX_IUI />,
+    path: 'SIMPLESELECT_MUI',
+    component: <SIMPLESELECT_MUI />
+  },
+  {
+    path: 'SIMPLESELECT_IUI_X100',
+    component: <SIMPLESELECT_IUI />,
     count: 100
   },
   {
-    path: 'FLEX_X100_MUI',
-    component: <FLEX_MUI />,
+    path: 'SIMPLESELECT_MUI_X100',
+    component: <SIMPLESELECT_MUI />,
     count: 100
-  }
+  },
+  {
+    path: 'VIEW_IUI',
+    component: <VIEW_IUI />
+  },
+  {
+    path: 'VIEW_IUI_X100',
+    component: <VIEW_IUI />,
+    count: 100
+  },
 ]
 
 const App = () => {

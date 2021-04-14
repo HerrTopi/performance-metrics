@@ -2,7 +2,7 @@ import { Alert } from '@instructure/ui'
 
 const ALERT_IUI = () => {
     return (
-        <Alert>Sample info text.</Alert>
+        <Alert transition="none">Sample info text.</Alert>
     )
 }
 
