@@ -2,7 +2,7 @@ import { SimpleSelect } from '@instructure/ui-simple-select';
 
 const SIMPLESELECT_IUI = () => {
     return (
-        <SimpleSelect>
+        <SimpleSelect renderLabel="Uncontrolled Select">
             <SimpleSelect.Option id="a1" value="a1">
                 a1
             </SimpleSelect.Option>
