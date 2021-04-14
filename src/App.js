@@ -61,11 +61,11 @@ const routes = [
   },
   {
     path: 'BUTTON_X100_IUI',
-    component: <BUTTON_X100_IUI />
+    component: <BUTTON_IUI count={100} />
   },
   {
     path: 'BUTTON_X100_MUI',
-    component: <BUTTON_X100_MUI />
+    component: <BUTTON_MUI count={100} />
   },
   {
     path: 'BUTTON_PRIMARY_SMALL_IUI',
