@@ -6,11 +6,10 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import RenderComponent from './RenderComponent'
 
 import BUTTON_IUI from './components/BUTTON_IUI'
 import BUTTON_MUI from './components/BUTTON_MUI'
-import BUTTON_X100_IUI from './components/BUTTON_X100_IUI'
-import BUTTON_X100_MUI from './components/BUTTON_X100_MUI'
 import BUTTON_PRIMARY_SMALL_IUI from './components/BUTTON_PRIMARY_SMALL_IUI'
 import BUTTON_PRIMARY_SMALL_MUI from './components/BUTTON_PRIMARY_SMALL_MUI'
 import BUTTON_ICON_IUI from './components/BUTTON_ICON_IUI'
@@ -19,27 +18,18 @@ import ICONBUTTON_IUI from './components/ICONBUTTON_IUI'
 import ICONBUTTON_MUI from './components/ICONBUTTON_MUI'
 import ICON_IUI from './components/ICON_IUI'
 import ICON_MUI from './components/ICON_MUI'
-import ICON_X100_IUI from './components/ICON_X100_IUI'
-import ICON_X100_MUI from './components/ICON_X100_MUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
-import SIMPLESELECT_X100_IUI from './components/SIMPLESELECT_X100_IUI'
-import SIMPLESELECT_X100_MUI from './components/SIMPLESELECT_X100_MUI'
 import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
 import VIEW_IUI from './components/VIEW_IUI'
-import VIEW_X100_IUI from './components/VIEW_X100_IUI'
 import LINK_IUI from './components/LINK_IUI'
 import LINK_MUI from './components/LINK_MUI'
-import LINK_X100_IUI from './components/LINK_X100_IUI'
-import LINK_X100_MUI from './components/LINK_X100_MUI'
 import FLEX_IUI from './components/FLEX_IUI'
 import FLEX_MUI from './components/FLEX_MUI'
-import FLEX_X100_IUI from './components/FLEX_X100_IUI'
-import FLEX_X100_MUI from './components/FLEX_X100_MUI'
 
 /*
   const output = []
-  
+
   for(i=0;i<100;i++){
     output.push(`<Box>Item ${i}</Box>`)
   }
@@ -53,19 +43,23 @@ const routes = [
   },
   {
     path: 'BUTTON_IUI',
-    component: <BUTTON_IUI />
+    component: <BUTTON_IUI />,
+    count: 1
   },
   {
     path: 'BUTTON_MUI',
-    component: <BUTTON_MUI />
+    component: <BUTTON_MUI />,
+    count: 1
   },
   {
     path: 'BUTTON_X100_IUI',
-    component: <BUTTON_IUI count={100} />
+    component: <BUTTON_IUI />,
+    count: 100
   },
   {
     path: 'BUTTON_X100_MUI',
-    component: <BUTTON_MUI count={100} />
+    component: <BUTTON_MUI />,
+    count: 100
   },
   {
     path: 'BUTTON_PRIMARY_SMALL_IUI',
@@ -93,7 +87,8 @@ const routes = [
   },
   {
     path: 'ICON_IUI',
-    component: <ICON_IUI />
+    component: <ICON_IUI />,
+    count: 1
   },
   {
     path: 'ICON_MUI',
@@ -101,11 +96,13 @@ const routes = [
   },
   {
     path: 'ICON_X100_IUI',
-    component: <ICON_X100_IUI />
+    component: <ICON_IUI />,
+    count: 100
   },
   {
     path: 'ICON_X100_MUI',
-    component: <ICON_X100_MUI />
+    component: <ICON_MUI />,
+    count: 100
   },
   {
     path: 'SIMPLESELECT_IUI',
@@ -117,11 +114,13 @@ const routes = [
   },
   {
     path: 'SIMPLESELECT_X100_IUI',
-    component: <SIMPLESELECT_X100_IUI />
+    component: <SIMPLESELECT_IUI />,
+    count: 100
   },
   {
     path: 'SIMPLESELECT_X100_MUI',
-    component: <SIMPLESELECT_X100_MUI />
+    component: <SIMPLESELECT_MUI />,
+    count: 100
   },
   {
     path: 'VIEW_IUI',
@@ -129,7 +128,8 @@ const routes = [
   },
   {
     path: 'VIEW_X100_IUI',
-    component: <VIEW_X100_IUI />
+    component: <VIEW_IUI />,
+    count: 100
   },
   {
     path: 'LINK_IUI',
@@ -141,11 +141,13 @@ const routes = [
   },
   {
     path: 'LINK_X100_IUI',
-    component: <LINK_X100_IUI />
+    component: <LINK_IUI />,
+    count: 100
   },
   {
     path: 'LINK_X100_MUI',
-    component: <LINK_X100_MUI />
+    component: <LINK_MUI />,
+    count: 100
   },
   {
     path: 'FLEX_IUI',
@@ -157,11 +159,13 @@ const routes = [
   },
   {
     path: 'FLEX_X100_IUI',
-    component: <FLEX_X100_IUI />
+    component: <FLEX_IUI />,
+    count: 100
   },
   {
     path: 'FLEX_X100_MUI',
-    component: <FLEX_X100_MUI />
+    component: <FLEX_MUI />,
+    count: 100
   }
 ]
 
@@ -173,10 +177,10 @@ const App = () => {
           <Route path="/statistics">
             <Statistics />
           </Route>
-          {routes.map(route => (
-            <Route key={route.path} path={`/${route.path}`}>
+          {routes.map(({ path, component, count = 1 }) => (
+            <Route key={path} path={`/${path}`}>
               <Metric>
-                {route.component}
+                <RenderComponent count={count}>{component}</RenderComponent>
               </Metric>
             </Route>
           ))}

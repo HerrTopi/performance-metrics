@@ -1,9 +1,8 @@
 import { Button } from '@instructure/ui'
-import ComponentMultiplyer from './ComponentMultiplyer'
 
-const BUTTON_IUI = ({ count = 1 }) => {
+const BUTTON_IUI = () => {
     return (
-        <ComponentMultiplyer Component={<Button>asd</Button>} count={count} />
+        <Button>asd</Button>
     )
 }
 
