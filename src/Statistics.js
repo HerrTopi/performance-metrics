@@ -2,6 +2,13 @@ import { useEffect, useState } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import { IconButton } from '@material-ui/core'
 import CopyIcon from '@material-ui/icons/FileCopy'
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
 const Statistics = ({ paths }) => {
   const [avgRunTime, setAvgRunTime] = useState(0)
@@ -23,15 +30,10 @@ const Statistics = ({ paths }) => {
       ))
     }
     else {
-      const metrics = JSON.parse(localStorage.getItem("metrics"))
+      const metrics = JSON.parse(localStorage.getItem(next))
       setAvgRunTime(calcAvg(metrics))
     }
-  }, [setAvgRunTime, next, paths])
-
-  const handleRunAgain = () => {
-    localStorage.setItem('metrics', JSON.stringify([]));
-    history.go(-1)
-  }
+  }, [setAvgRunTime, next, paths, currentPath])
 
   const copyCsvToClipboard = () => {
     navigator.clipboard.writeText(bulkData.map(({ name, avg }) => `${name},${avg}`).join('\n'))
@@ -39,11 +41,30 @@ const Statistics = ({ paths }) => {
 
   return (
     <div>
-      <IconButton onClick={copyCsvToClipboard}> <CopyIcon /> </IconButton>
-      <button onClick={handleRunAgain}>Run again</button>
+      {next === 'next' && <IconButton onClick={copyCsvToClipboard}> <CopyIcon /> </IconButton>}
       <button onClick={() => history.push('/')}>To config</button>
       <hr />
-        avgRunTime: {avgRunTime}
+      {next !== 'next' && <div> avgRunTime: {avgRunTime} </div>}
+      <TableContainer component={Paper}>
+        <Table style={{ width: "300px" }} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell align="left">Name</TableCell>
+              <TableCell align="left">Runtime</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {bulkData.map(({ name, avg }) => (
+              <TableRow key={name}>
+                <TableCell component="th" scope="row">
+                  {name}
+                </TableCell>
+                <TableCell align="left">{Math.round(avg * 10) / 10}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
     </div>
   );
 }

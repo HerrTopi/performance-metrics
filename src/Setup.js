@@ -9,7 +9,7 @@ const Setup = ({ routes }) => {
 
   const runSelected = () => {
     localStorage.setItem('runTimes', ref2.current.value);
-    localStorage.setItem('metrics', JSON.stringify([]));
+    localStorage.setItem(ref1.current.value, JSON.stringify([]));
     history.push(`/${ref1.current.value}`)
   }
 

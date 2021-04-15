@@ -18,10 +18,9 @@ const Metric = ({ children, paths }) => {
     } else if (next === 'next') {
       const currentPathIndex = paths.findIndex((path) => path === currentPath)
       const nextPath = currentPathIndex + 1 < paths.length ? paths[currentPathIndex + 1] : 'statistics'
-      localStorage.setItem('runTimes', 10);
       history.push(`/${nextPath}/next`)
     } else {
-      history.push('/statistics')
+      history.push(`/statistics/${currentPath}`)
     }
   }
 
