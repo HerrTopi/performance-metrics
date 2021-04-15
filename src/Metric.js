@@ -1,20 +1,27 @@
-import {Profiler} from "react"
-import { useHistory } from "react-router-dom";
+import { Profiler } from "react"
+import { useHistory, useLocation } from "react-router-dom";
 
-const Metric=({children})=> {
+const Metric = ({ children, paths }) => {
+  const location = useLocation();
   const history = useHistory()
-  
+  // eslint-disable-next-line no-unused-vars
+  const [empty, currentPath, next] = location.pathname.split('/')
 
-  const onRender = (id,phase,actualDuration,baseDuration,startTime,commitTime,interactions) => {
+  const onRender = (id, phase, actualDuration, baseDuration, startTime, commitTime, interactions) => {
     const runTimes = localStorage.getItem("runTimes");
-    const metrics = JSON.parse(localStorage.getItem("metrics"))
-    const newMetrics=[...metrics,{actualDuration,phase}]
-    localStorage.setItem("metrics",JSON.stringify(newMetrics))
-    
-    if(runTimes>newMetrics.length){
-        history.go(0)
-    }else{
-        history.push('/statistics')
+    const metrics = JSON.parse(localStorage.getItem(currentPath))
+    const newMetrics = [...metrics, { actualDuration, phase }]
+    localStorage.setItem(currentPath, JSON.stringify(newMetrics))
+
+    if (runTimes > newMetrics.length) {
+      history.go(0)
+    } else if (next === 'next') {
+      const currentPathIndex = paths.findIndex((path) => path === currentPath)
+      const nextPath = currentPathIndex + 1 < paths.length ? paths[currentPathIndex + 1] : 'statistics'
+      localStorage.setItem('runTimes', 10);
+      history.push(`/${nextPath}/next`)
+    } else {
+      history.push('/statistics')
     }
   }
 

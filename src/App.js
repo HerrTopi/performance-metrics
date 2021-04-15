@@ -185,6 +185,7 @@ const routes = [
     count: 100
   },
 ]
+const paths = routes.map(({ path }) => path)
 
 const App = () => {
   return (
@@ -192,11 +193,11 @@ const App = () => {
       <Router>
         <Switch>
           <Route path="/statistics">
-            <Statistics />
+            <Statistics paths={paths} />
           </Route>
           {routes.map(({ path, component, count = 1 }) => (
             <Route key={path} path={`/${path}`}>
-              <Metric>
+              <Metric paths={paths}>
                 <RenderComponent count={count}>{component}</RenderComponent>
               </Metric>
             </Route>
