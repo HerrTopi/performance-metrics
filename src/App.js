@@ -12,12 +12,17 @@ import ALERT_IUI from './components/ALERT_IUI'
 import APPNAV_IUI from './components/APPNAV_IUI'
 import AVATAR_IUI from './components/AVATAR_IUI'
 import AVATAR_IMG_IUI from './components/AVATAR_IMG_IUI'
+import BADGE_IUI from './components/BADGE_IUI'
+import BADGE_WITH_COUNT_IUI from './components/BADGE_WITH_COUNT_IUI'
+import BILLBOARD_IUI from './components/BILLBOARD_IUI'
+import BREADCRUMB_IUI from './components/BREADCRUMB_IUI'
 import BUTTON_IUI from './components/BUTTON_IUI'
 import BUTTON_MUI from './components/BUTTON_MUI'
 import BUTTON_ICON_IUI from './components/BUTTON_ICON_IUI'
 import BUTTON_ICON_MUI from './components/BUTTON_ICON_MUI'
 import BUTTON_PRIMARY_SMALL_IUI from './components/BUTTON_PRIMARY_SMALL_IUI'
 import BUTTON_PRIMARY_SMALL_MUI from './components/BUTTON_PRIMARY_SMALL_MUI'
+import BYLINE_IUI from './components/BYLINE_IUI'
 import FLEX_IUI from './components/FLEX_IUI'
 import FLEX_MUI from './components/FLEX_MUI'
 import ICON_IUI from './components/ICON_IUI'
@@ -78,6 +83,36 @@ const routes = [
     count: 100
   },
   {
+    path: 'BADGE_IUI',
+    component: <BADGE_IUI />,
+    count: 1
+  },
+  {
+    path: 'BADGE_IUI_X100',
+    component: <BADGE_IUI />,
+    count: 100
+  },
+  {
+    path: 'BADGE_WITH_COUNT_IUI',
+    component: <BADGE_WITH_COUNT_IUI />,
+    count: 1
+  },
+  {
+    path: 'BADGE_WITH_COUNT_IUI_X100',
+    component: <BADGE_WITH_COUNT_IUI />,
+    count: 100
+  },
+  {
+    path: 'BILLBOARD_IUI',
+    component: <BILLBOARD_IUI />,
+    count: 1
+  },
+  {
+    path: 'BREADCRUMB_IUI',
+    component: <BREADCRUMB_IUI />,
+    count: 1
+  },
+  {
     path: 'BUTTON_IUI',
     component: <BUTTON_IUI />,
     count: 1
@@ -112,6 +147,15 @@ const routes = [
   {
     path: 'BUTTON_PRIMARY_SMALL_MUI',
     component: <BUTTON_PRIMARY_SMALL_MUI />
+  },
+  {
+    path: 'BYLINE_IUI',
+    component: <BYLINE_IUI />
+  },
+  {
+    path: 'BYLINE_IUI_X100',
+    component: <BYLINE_IUI />,
+    count: 100
   },
   {
     path: 'FLEX_IUI',
