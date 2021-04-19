@@ -1,4 +1,4 @@
-import { InPlaceEdit, Text } from '@instructure/ui'
+import { InPlaceEdit } from '@instructure/ui'
 
 const INPLACEEDIT_IUI = () => {
 

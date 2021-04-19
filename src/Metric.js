@@ -1,5 +1,6 @@
 import { Profiler } from "react"
 import { useHistory, useLocation } from "react-router-dom";
+import Table from "@material-ui/core/Table";
 
 const Metric = ({ children, paths }) => {
   const location = useLocation();
@@ -31,25 +32,21 @@ const Metric = ({ children, paths }) => {
     history.push('/')
   }
 
-  return (
-    <div>
-      {next === 'freeze'
-        ? (
-          <div>
-            <button onClick={backToHomepage}>To config</button>
-            <br/><br/>
-            {children}
-          </div>
-          )
-        : (
-          <Profiler id="metrics" onRender={onRender}>
-            {children}
-          </Profiler>
-        )
-      }
-
-    </div>
-  )
+  return next === 'freeze'
+    ? (
+      <div>
+        <button onClick={backToHomepage}>To config</button>
+        <br/><br/>
+        {children}
+      </div>
+      )
+    : (
+      <div  style={{ paddingTop: "24px" }}>
+        <Profiler id="metrics" onRender={onRender}>
+          {children}
+        </Profiler>
+      </div>
+    )
 }
 
 export default Metric;

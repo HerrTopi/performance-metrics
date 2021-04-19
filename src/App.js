@@ -44,14 +44,22 @@ import ICONBUTTON_IUI from './components/ICONBUTTON_IUI'
 import ICONBUTTON_MUI from './components/ICONBUTTON_MUI'
 import IMG_IUI from './components/IMG_IUI'
 import INLINELIST_IUI from './components/INLINELIST_IUI'
+import INPLACEEDIT_IUI from './components/INPLACEEDIT_IUI'
 import LINK_IUI from './components/LINK_IUI'
 import LINK_MUI from './components/LINK_MUI'
+import LINK_WITH_ICON_IUI from './components/LINK_WITH_ICON_IUI'
+import LIST_IUI from './components/LIST_IUI'
+import MENU_IUI from './components/MENU_IUI'
+import METRIC_IUI from './components/METRIC_IUI'
+import METRICGROUP_IUI from './components/METRICGROUP_IUI'
+import MODAL_IUI from './components/MODAL_IUI'
+import NAVIGATION_IUI from './components/NAVIGATION_IUI'
+import NUMBERINPUT_IUI from './components/NUMBERINPUT_IUI'
 import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
 import VIEW_IUI from './components/VIEW_IUI'
 import VIEW_WITH_SHADOW_IUI from './components/VIEW_WITH_SHADOW_IUI'
-import INPLACEEDIT_IUI from "./components/INPLACEEDIT_IUI";
 
 /*
   const output = []
@@ -371,6 +379,63 @@ const routes = [
   {
     path: 'LINK_MUI_X100',
     component: <LINK_MUI />,
+    count: 100
+  },
+  {
+    path: 'LINK_WITH_ICON_IUI',
+    component: <LINK_WITH_ICON_IUI />,
+    count: 1
+  },
+  {
+    path: 'LINK_WITH_ICON_IUI_X100',
+    component: <LINK_WITH_ICON_IUI />,
+    count: 100
+  },
+  {
+    path: 'LIST_IUI',
+    component: <LIST_IUI />,
+    count: 1
+  },
+  {
+    path: 'LIST_IUI_X100',
+    component: <LIST_IUI />,
+    count: 100
+  },
+  {
+    path: 'MENU_IUI',
+    component: <MENU_IUI />,
+  },
+  {
+    path: 'METRIC_IUI',
+    component: <METRIC_IUI />,
+    count: 1
+  },
+  {
+    path: 'METRIC_IUI_X100',
+    component: <METRIC_IUI />,
+    count: 100
+  },
+  {
+    path: 'METRICGROUP_IUI',
+    component: <METRICGROUP_IUI />,
+  },
+  {
+    path: 'MODAL_IUI',
+    component: <MODAL_IUI />,
+  },
+  {
+    path: 'NAVIGATION_IUI',
+    component: <NAVIGATION_IUI />,
+  },
+
+  {
+    path: 'NUMBERINPUT_IUI',
+    component: <NUMBERINPUT_IUI />,
+    count: 1
+  },
+  {
+    path: 'NUMBERINPUT_IUI_X100',
+    component: <NUMBERINPUT_IUI />,
     count: 100
   },
   {
