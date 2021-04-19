@@ -30,12 +30,20 @@ import CLOSEBUTTON_IUI from './components/CLOSEBUTTON_IUI'
 import CODEEDITOR_IUI from './components/CODEEDITOR_IUI'
 import CONDENSEDBUTTON_IUI from './components/CONDENSEDBUTTON_IUI'
 import CONTEXTVIEW_IUI from './components/CONTEXTVIEW_IUI'
+import DRAWERLAYOUT_IUI from './components/DRAWERLAYOUT_IUI'
+import FILEDROP_IUI from './components/FILEDROP_IUI'
 import FLEX_IUI from './components/FLEX_IUI'
 import FLEX_MUI from './components/FLEX_MUI'
+import FORMFIELD_IUI from './components/FORMFIELD_IUI'
+import FORMFIELDGROUP_IUI from './components/FORMFIELDGROUP_IUI'
+import GRID_IUI from './components/GRID_IUI'
+import HEADING_IUI from './components/HEADING_IUI'
 import ICON_IUI from './components/ICON_IUI'
 import ICON_MUI from './components/ICON_MUI'
 import ICONBUTTON_IUI from './components/ICONBUTTON_IUI'
 import ICONBUTTON_MUI from './components/ICONBUTTON_MUI'
+import IMG_IUI from './components/IMG_IUI'
+import INLINELIST_IUI from './components/INLINELIST_IUI'
 import LINK_IUI from './components/LINK_IUI'
 import LINK_MUI from './components/LINK_MUI'
 import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
@@ -43,6 +51,7 @@ import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
 import VIEW_IUI from './components/VIEW_IUI'
 import VIEW_WITH_SHADOW_IUI from './components/VIEW_WITH_SHADOW_IUI'
+import INPLACEEDIT_IUI from "./components/INPLACEEDIT_IUI";
 
 /*
   const output = []
@@ -229,6 +238,54 @@ const routes = [
     count: 100
   },
   {
+    path: 'DRAWERLAYOUT_IUI',
+    component: <DRAWERLAYOUT_IUI />,
+  },
+  {
+    path: 'FILEDROP_IUI',
+    component: <FILEDROP_IUI />,
+  },
+  {
+    path: 'FORMFIELD_IUI',
+    component: <FORMFIELD_IUI />,
+    count: 1
+  },
+  {
+    path: 'FORMFIELD_IUI_X100',
+    component: <FORMFIELD_IUI />,
+    count: 100
+  },
+  {
+    path: 'FORMFIELDGROUP_IUI',
+    component: <FORMFIELDGROUP_IUI />,
+    count: 1
+  },
+  {
+    path: 'FORMFIELDGROUP_IUI_X100',
+    component: <FORMFIELDGROUP_IUI />,
+    count: 100
+  },
+  {
+    path: 'GRID_IUI',
+    component: <GRID_IUI />,
+    count: 1
+  },
+  {
+    path: 'GRID_IUI_X100',
+    component: <GRID_IUI />,
+    count: 100
+  },
+  {
+    path: 'HEADING_IUI',
+    component: <HEADING_IUI />,
+    count: 1
+  },
+  {
+    path: 'HEADING_IUI_X100',
+    component: <HEADING_IUI />,
+    count: 100
+  },
+  {
     path: 'FLEX_IUI',
     component: <FLEX_IUI />
   },
@@ -272,6 +329,31 @@ const routes = [
   {
     path: 'ICONBUTTON_MUI',
     component: <ICONBUTTON_MUI />
+  },
+  {
+    path: 'IMG_IUI',
+    component: <IMG_IUI />,
+    count: 1
+  },
+  {
+    path: 'IMG_IUI_X100',
+    component: <IMG_IUI />,
+    count: 100
+  },
+  {
+    path: 'INLINELIST_IUI',
+    component: <INLINELIST_IUI />,
+    count: 1
+  },
+  {
+    path: 'INLINELIST_IUI_X100',
+    component: <INLINELIST_IUI />,
+    count: 100
+  },
+  {
+    path: 'INPLACEEDIT_IUI',
+    component: <INPLACEEDIT_IUI />,
+    count: 1
   },
   {
     path: 'LINK_IUI',
