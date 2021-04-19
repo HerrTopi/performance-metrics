@@ -11,14 +11,13 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
 const Statistics = ({ paths }) => {
-  const [avgRunTime, setAvgRunTime] = useState(0)
   const [bulkData, setBulkData] = useState([])
   const location = useLocation();
   const history = useHistory()
   // eslint-disable-next-line no-unused-vars
   const [empty, currentPath, next] = location.pathname.split('/')
 
-  const calcAvg = data => data.reduce((sum, { actualDuration }) => sum + actualDuration, 0) / data.length
+  const calcAvg = (data) => data.reduce((sum, { actualDuration }) => sum + actualDuration, 0) / data.length
 
 
   useEffect(() => {
@@ -26,14 +25,13 @@ const Statistics = ({ paths }) => {
       setBulkData(paths.map(path => {
         const data = JSON.parse(localStorage.getItem(path))
         return { name: path, avg: calcAvg(data) }
-      }
-      ))
+      }))
     }
     else {
-      const metrics = JSON.parse(localStorage.getItem(next))
-      setAvgRunTime(calcAvg(metrics))
+      const data = JSON.parse(localStorage.getItem(next) || [])
+      setBulkData([{ name: next, avg: calcAvg(data) }])
     }
-  }, [setAvgRunTime, next, paths, currentPath])
+  }, [next, paths, currentPath])
 
   const copyCsvToClipboard = () => {
     navigator.clipboard.writeText(bulkData.map(({ name, avg }) => `${name},${avg}`).join('\n'))
@@ -44,9 +42,8 @@ const Statistics = ({ paths }) => {
       {next === 'next' && <IconButton onClick={copyCsvToClipboard}> <CopyIcon /> </IconButton>}
       <button onClick={() => history.push('/')}>To config</button>
       <hr />
-      {next !== 'next' && <div> avgRunTime: {avgRunTime} </div>}
-      <TableContainer component={Paper}>
-        <Table style={{ width: "300px" }} aria-label="simple table">
+      <TableContainer component={Paper} style={{ display: "inline-block", width: "auto" }}>
+        <Table style={{ minWidth: "300px" }} stickyHeader aria-label="simple table">
           <TableHead>
             <TableRow>
               <TableCell align="left">Name</TableCell>
