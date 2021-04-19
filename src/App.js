@@ -23,6 +23,13 @@ import BUTTON_ICON_MUI from './components/BUTTON_ICON_MUI'
 import BUTTON_PRIMARY_SMALL_IUI from './components/BUTTON_PRIMARY_SMALL_IUI'
 import BUTTON_PRIMARY_SMALL_MUI from './components/BUTTON_PRIMARY_SMALL_MUI'
 import BYLINE_IUI from './components/BYLINE_IUI'
+import CHECKBOX_IUI from './components/CHECKBOX_IUI'
+import CHECKBOX_TOGGLE_IUI from './components/CHECKBOX_TOGGLE_IUI'
+import CHECKBOXGROUP_IUI from './components/CHECKBOXGROUP_IUI'
+import CLOSEBUTTON_IUI from './components/CLOSEBUTTON_IUI'
+import CODEEDITOR_IUI from './components/CODEEDITOR_IUI'
+import CONDENSEDBUTTON_IUI from './components/CONDENSEDBUTTON_IUI'
+import CONTEXTVIEW_IUI from './components/CONTEXTVIEW_IUI'
 import FLEX_IUI from './components/FLEX_IUI'
 import FLEX_MUI from './components/FLEX_MUI'
 import ICON_IUI from './components/ICON_IUI'
@@ -155,6 +162,70 @@ const routes = [
   {
     path: 'BYLINE_IUI_X100',
     component: <BYLINE_IUI />,
+    count: 100
+  },
+  {
+    path: 'CHECKBOX_IUI',
+    component: <CHECKBOX_IUI />
+  },
+  {
+    path: 'CHECKBOX_IUI_X100',
+    component: <CHECKBOX_IUI />,
+    count: 100
+  },
+  {
+    path: 'CHECKBOX_TOGGLE_IUI',
+    component: <CHECKBOX_TOGGLE_IUI />
+  },
+  {
+    path: 'CHECKBOX_TOGGLE_IUI_X100',
+    component: <CHECKBOX_TOGGLE_IUI />,
+    count: 100
+  },
+  {
+    path: 'CHECKBOXGROUP_IUI',
+    component: <CHECKBOXGROUP_IUI />,
+    count: 1
+  },
+  {
+    path: 'CLOSEBUTTON_IUI',
+    component: <CLOSEBUTTON_IUI />,
+    count: 1
+  },
+  {
+    path: 'CLOSEBUTTON_IUI_X100',
+    component: <CLOSEBUTTON_IUI />,
+    count: 100
+  },
+  {
+    path: 'CODEEDITOR_IUI',
+    component: <CODEEDITOR_IUI />,
+    count: 1
+  },
+  // 100 crashes the browser, lol
+  // {
+  //   path: 'CODEEDITOR_IUI_X100',
+  //   component: <CODEEDITOR_IUI />,
+  //   count: 100
+  // },
+  {
+    path: 'CONDENSEDBUTTON_IUI',
+    component: <CONDENSEDBUTTON_IUI />,
+    count: 1
+  },
+  {
+    path: 'CONDENSEDBUTTON_IUI_X100',
+    component: <CONDENSEDBUTTON_IUI />,
+    count: 100
+  },
+  {
+    path: 'CONTEXTVIEW_IUI',
+    component: <CONTEXTVIEW_IUI />,
+    count: 1
+  },
+  {
+    path: 'CONTEXTVIEW_IUI_X100',
+    component: <CONTEXTVIEW_IUI />,
     count: 100
   },
   {
