@@ -1,10 +1,12 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useHistory } from "react-router-dom";
 
 const Setup = ({ routes }) => {
+  const lastTestedComponent = localStorage.getItem('lastTestedComponent')
   const ref1 = useRef()
   const ref2 = useRef()
   const history = useHistory()
+  const [selected, setSelected] = useState(lastTestedComponent || '')
 
 
   const runSelected = () => {
@@ -22,17 +24,23 @@ const Setup = ({ routes }) => {
     history.push(`/${routes[0].path}/next`)
   }
 
+  const preview = () => {
+    history.push(`/${ref1.current.value}/freeze`)
+  }
+
   return (
     <div>
-      <button onClick={runSelected}>Run test</button>
-      <button onClick={runAll}>Run All</button>
+      <button onClick={runSelected}>Run test</button>&nbsp;
+      <button onClick={runAll}>Run All</button>&nbsp;
+      <button onClick={preview}>Preview</button>&nbsp;
       <br /><br />
-        Target: <select ref={ref1}>
-        {routes.map(route =>
-          <option key={route.path} value={route.path}>{route.path}</option>
-        )}
-      </select>
-      <br /><br />
+        Target: &nbsp;
+        <select ref={ref1} value={selected} onChange={(e) => {setSelected(e.target.value)}}>
+          {routes.map(route =>
+            <option key={route.path} value={route.path}>{route.path}</option>
+          )}
+        </select>
+        <br /><br />
         Precision: <input defaultValue="10" ref={ref2} type="number"></input>
     </div>
   );

@@ -12,6 +12,7 @@ const Metric = ({ children, paths }) => {
     const metrics = JSON.parse(localStorage.getItem(currentPath))
     const newMetrics = [...metrics, { actualDuration, phase }]
     localStorage.setItem(currentPath, JSON.stringify(newMetrics))
+    localStorage.setItem('lastTestedComponent', null)
 
     if (runTimes > newMetrics.length) {
       history.go(0)
@@ -20,17 +21,35 @@ const Metric = ({ children, paths }) => {
       const nextPath = currentPathIndex + 1 < paths.length ? paths[currentPathIndex + 1] : 'statistics'
       history.push(`/${nextPath}/next`)
     } else {
+      localStorage.setItem('lastTestedComponent', currentPath)
       history.push(`/statistics/${currentPath}`)
     }
   }
 
+  const backToHomepage = () => {
+    localStorage.setItem('lastTestedComponent', currentPath)
+    history.push('/')
+  }
+
   return (
     <div>
-      <Profiler id="metrics" onRender={onRender}>
-        {children}
-      </Profiler>
+      {next === 'freeze'
+        ? (
+          <div>
+            <button onClick={backToHomepage}>To config</button>
+            <br/><br/>
+            {children}
+          </div>
+          )
+        : (
+          <Profiler id="metrics" onRender={onRender}>
+            {children}
+          </Profiler>
+        )
+      }
+
     </div>
-  );
+  )
 }
 
 export default Metric;

@@ -10,6 +10,8 @@ import RenderComponent from './RenderComponent'
 
 import ALERT_IUI from './components/ALERT_IUI'
 import APPNAV_IUI from './components/APPNAV_IUI'
+import AVATAR_IUI from './components/AVATAR_IUI'
+import AVATAR_IMG_IUI from './components/AVATAR_IMG_IUI'
 import BUTTON_IUI from './components/BUTTON_IUI'
 import BUTTON_MUI from './components/BUTTON_MUI'
 import BUTTON_ICON_IUI from './components/BUTTON_ICON_IUI'
@@ -28,6 +30,7 @@ import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
 import VIEW_IUI from './components/VIEW_IUI'
+import VIEW_WITH_SHADOW_IUI from './components/VIEW_WITH_SHADOW_IUI'
 
 /*
   const output = []
@@ -53,6 +56,26 @@ const routes = [
     path: 'APPNAV_IUI',
     component: <APPNAV_IUI />,
     count: 1
+  },
+  {
+    path: 'AVATAR_IUI',
+    component: <AVATAR_IUI />,
+    count: 1
+  },
+  {
+    path: 'AVATAR_IUI_X100',
+    component: <AVATAR_IUI />,
+    count: 100
+  },
+  {
+    path: 'AVATAR_IMG_IUI',
+    component: <AVATAR_IMG_IUI />,
+    count: 1
+  },
+  {
+    path: 'AVATAR_IMG_IUI_X100',
+    component: <AVATAR_IMG_IUI />,
+    count: 100
   },
   {
     path: 'BUTTON_IUI',
@@ -182,6 +205,15 @@ const routes = [
   {
     path: 'VIEW_IUI_X100',
     component: <VIEW_IUI />,
+    count: 100
+  },
+  {
+    path: 'VIEW_WITH_SHADOW_IUI',
+    component: <VIEW_WITH_SHADOW_IUI />
+  },
+  {
+    path: 'VIEW_WITH_SHADOW_IUI_X100',
+    component: <VIEW_WITH_SHADOW_IUI />,
     count: 100
   },
 ]
