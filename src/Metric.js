@@ -1,6 +1,5 @@
 import { Profiler } from "react"
 import { useHistory, useLocation } from "react-router-dom";
-import Table from "@material-ui/core/Table";
 
 const Metric = ({ children, paths }) => {
   const location = useLocation();

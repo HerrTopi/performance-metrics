@@ -55,6 +55,13 @@ import METRICGROUP_IUI from './components/METRICGROUP_IUI'
 import MODAL_IUI from './components/MODAL_IUI'
 import NAVIGATION_IUI from './components/NAVIGATION_IUI'
 import NUMBERINPUT_IUI from './components/NUMBERINPUT_IUI'
+import OPTIONS_IUI from './components/OPTIONS_IUI'
+import OPTIONS_FORM_MENU_IUI from './components/OPTIONS_FORM_MENU_IUI'
+import OVERLAY_IUI from './components/OVERLAY_IUI'
+import PAGES_IUI from './components/PAGES_IUI'
+import PAGINATION_IUI from './components/PAGINATION_IUI'
+import PILL_IUI from './components/PILL_IUI'
+import POPOVER_IUI from './components/POPOVER_IUI'
 import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
@@ -427,7 +434,6 @@ const routes = [
     path: 'NAVIGATION_IUI',
     component: <NAVIGATION_IUI />,
   },
-
   {
     path: 'NUMBERINPUT_IUI',
     component: <NUMBERINPUT_IUI />,
@@ -437,6 +443,39 @@ const routes = [
     path: 'NUMBERINPUT_IUI_X100',
     component: <NUMBERINPUT_IUI />,
     count: 100
+  },
+  {
+    path: 'OPTIONS_IUI',
+    component: <OPTIONS_IUI />,
+  },
+  {
+    path: 'OPTIONS_FORM_MENU_IUI',
+    component: <OPTIONS_FORM_MENU_IUI />,
+  },
+  {
+    path: 'OVERLAY_IUI',
+    component: <OVERLAY_IUI />,
+  },
+  {
+    path: 'PAGES_IUI',
+    component: <PAGES_IUI />,
+  },
+  {
+    path: 'PAGINATION_IUI',
+    component: <PAGINATION_IUI />,
+  },
+  {
+    path: 'PILL_IUI',
+    component: <PILL_IUI />,
+  },
+  {
+    path: 'PILL_IUI_X100',
+    component: <PILL_IUI />,
+    count: 100
+  },
+  {
+    path: 'POPOVER_IUI',
+    component: <POPOVER_IUI />,
   },
   {
     path: 'SELECT_DEFAULT_EXAMPLE_IUI',
