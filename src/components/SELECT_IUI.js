@@ -106,7 +106,7 @@ class SingleSelectExample extends React.Component {
     }
 }
 
-const SELECT_DEFAULT_EXAMPLE_IUI = () => {
+const SELECT_IUI = () => {
     return (
         <View>
             <SingleSelectExample
@@ -134,4 +134,4 @@ const SELECT_DEFAULT_EXAMPLE_IUI = () => {
 
 }
 
-export default SELECT_DEFAULT_EXAMPLE_IUI
+export default SELECT_IUI

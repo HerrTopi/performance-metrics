@@ -18,11 +18,9 @@ const PAGES_IUI = () => {
           return (
             <div>
               <div>
-                <a
-                  onClick={() => {}}
-                >
+                <button onClick={() => {}}>
                   Go to Page Two
-                </a>
+                </button>
               </div>
               <div>
                 <div>Page One</div>

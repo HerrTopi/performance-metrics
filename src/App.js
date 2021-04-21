@@ -62,7 +62,17 @@ import PAGES_IUI from './components/PAGES_IUI'
 import PAGINATION_IUI from './components/PAGINATION_IUI'
 import PILL_IUI from './components/PILL_IUI'
 import POPOVER_IUI from './components/POPOVER_IUI'
-import SELECT_DEFAULT_EXAMPLE_IUI from './components/SELECT_DEFAULT_EXAMPLE_IUI'
+import PROGRESSBAR_IUI from './components/PROGRESSBAR_IUI'
+import PROGRESSCIRCLE_IUI from './components/PROGRESSCIRCLE_IUI'
+import RADIOINPUT_IUI from './components/RADIOINPUT_IUI'
+import RADIOINPUT_TOGGLE_IUI from './components/RADIOINPUT_TOGGLE_IUI'
+import RADIOINPUTGROUP_IUI from './components/RADIOINPUTGROUP_IUI'
+import RADIOINPUTGROUP_TOGGLE_IUI from './components/RADIOINPUTGROUP_TOGGLE_IUI'
+import RANGEINPUT_IUI from './components/RANGEINPUT_IUI'
+import RATING_IUI from './components/RATING_IUI'
+import RESPONSIVE_IUI from './components/RESPONSIVE_IUI'
+import SELECT_IUI from './components/SELECT_IUI'
+import SELECTABLE_IUI from './components/SELECTABLE_IUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
 import VIEW_IUI from './components/VIEW_IUI'
@@ -478,8 +488,73 @@ const routes = [
     component: <POPOVER_IUI />,
   },
   {
-    path: 'SELECT_DEFAULT_EXAMPLE_IUI',
-    component: <SELECT_DEFAULT_EXAMPLE_IUI />
+    path: 'PROGRESSBAR_IUI',
+    component: <PROGRESSBAR_IUI />,
+  },
+  {
+    path: 'PROGRESSCIRCLE_IUI',
+    component: <PROGRESSCIRCLE_IUI />,
+  },
+  {
+    path: 'RADIOINPUT_IUI',
+    component: <RADIOINPUT_IUI />,
+  },
+  {
+    path: 'RADIOINPUT_IUI_X100',
+    component: <RADIOINPUT_IUI />,
+    count: 100
+  },
+  {
+    path: 'RADIOINPUT_TOGGLE_IUI',
+    component: <RADIOINPUT_TOGGLE_IUI />,
+  },
+  {
+    path: 'RADIOINPUT_TOGGLE_IUI_X100',
+    component: <RADIOINPUT_TOGGLE_IUI />,
+    count: 100
+  },
+  {
+    path: 'RADIOINPUTGROUP_IUI',
+    component: <RADIOINPUTGROUP_IUI />,
+  },
+  {
+    path: 'RADIOINPUTGROUP_TOGGLE_IUI',
+    component: <RADIOINPUTGROUP_TOGGLE_IUI />,
+  },
+  {
+    path: 'RANGEINPUT_IUI',
+    component: <RANGEINPUT_IUI />,
+  },
+  {
+    path: 'RATING_IUI',
+    component: <RATING_IUI />,
+  },
+  {
+    path: 'RATING_IUI_X100',
+    component: <RATING_IUI />,
+    count: 100
+  },
+  {
+    path: 'RESPONSIVE_IUI',
+    component: <RESPONSIVE_IUI />,
+  },
+  {
+    path: 'RESPONSIVE_IUI_X100',
+    component: <RESPONSIVE_IUI />,
+    count: 100
+  },
+  {
+    path: 'SELECT_IUI',
+    component: <SELECT_IUI />
+  },
+  {
+    path: 'SELECTABLE_IUI',
+    component: <SELECTABLE_IUI />
+  },
+  {
+    path: 'SELECTABLE_IUI_X100',
+    component: <SELECTABLE_IUI />,
+    count: 100
   },
   {
     path: 'SIMPLESELECT_IUI',
