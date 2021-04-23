@@ -84,6 +84,15 @@ import TEXT_IUI from './components/TEXT_IUI'
 import TEXT_STYLED_IUI from './components/TEXT_STYLED_IUI'
 import TEXTAREA_IUI from './components/TEXTAREA_IUI'
 import TEXTINPUT_IUI from './components/TEXTINPUT_IUI'
+import TIMESELECT_IUI from './components/TIMESELECT_IUI'
+import TOGGLEBUTTON_IUI from './components/TOGGLEBUTTON_IUI'
+import TOGGLEDETAILS_IUI from './components/TOGGLEDETAILS_IUI'
+import TOGGLEDETAILS_FILLED_IUI from './components/TOGGLEDETAILS_FILLED_IUI'
+import TOGGLEGROUP_IUI from './components/TOGGLEGROUP_IUI'
+import TOOLTIP_IUI from './components/TOOLTIP_IUI'
+import TRAY_IUI from './components/TRAY_IUI'
+import TREEBROWSER_IUI from './components/TREEBROWSER_IUI'
+import TRUNCATETEXT_IUI from './components/TRUNCATETEXT_IUI'
 import VIEW_IUI from './components/VIEW_IUI'
 import VIEW_WITH_SHADOW_IUI from './components/VIEW_WITH_SHADOW_IUI'
 
@@ -652,6 +661,72 @@ const routes = [
   {
     path: 'TEXTINPUT_IUI_X100',
     component: <TEXTINPUT_IUI />,
+    count: 100
+  },
+  {
+    path: 'TIMESELECT_IUI',
+    component: <TIMESELECT_IUI />,
+  },
+  {
+    path: 'TOGGLEBUTTON_IUI',
+    component: <TOGGLEBUTTON_IUI />
+  },
+  {
+    path: 'TOGGLEBUTTON_IUI_X100',
+    component: <TOGGLEBUTTON_IUI />,
+    count: 100
+  },
+  {
+    path: 'TOGGLEDETAILS_IUI',
+    component: <TOGGLEDETAILS_IUI />
+  },
+  {
+    path: 'TOGGLEDETAILS_IUI_X100',
+    component: <TOGGLEDETAILS_IUI />,
+    count: 100
+  },
+  {
+    path: 'TOGGLEDETAILS_FILLED_IUI',
+    component: <TOGGLEDETAILS_FILLED_IUI />
+  },
+  {
+    path: 'TOGGLEDETAILS_FILLED_IUI_X100',
+    component: <TOGGLEDETAILS_FILLED_IUI />,
+    count: 100
+  },
+  {
+    path: 'TOGGLEGROUP_IUI',
+    component: <TOGGLEGROUP_IUI />
+  },
+  {
+    path: 'TOGGLEGROUP_IUI_X100',
+    component: <TOGGLEGROUP_IUI />,
+    count: 100
+  },
+  {
+    path: 'TOOLTIP_IUI',
+    component: <TOOLTIP_IUI />
+  },
+  {
+    path: 'TOOLTIP_IUI_X100',
+    component: <TOOLTIP_IUI />,
+    count: 100
+  },
+  {
+    path: 'TRAY_IUI',
+    component: <TRAY_IUI />,
+  },
+  {
+    path: 'TREEBROWSER_IUI',
+    component: <TREEBROWSER_IUI />,
+  },
+  {
+    path: 'TRUNCATETEXT_IUI',
+    component: <TRUNCATETEXT_IUI />
+  },
+  {
+    path: 'TRUNCATETEXT_IUI_X100',
+    component: <TRUNCATETEXT_IUI />,
     count: 100
   },
   {
