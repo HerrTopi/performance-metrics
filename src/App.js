@@ -75,6 +75,15 @@ import SELECT_IUI from './components/SELECT_IUI'
 import SELECTABLE_IUI from './components/SELECTABLE_IUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
+import SPINNER_IUI from './components/SPINNER_IUI'
+import TABLE_IUI from './components/TABLE_IUI'
+import TABS_IUI from './components/TABS_IUI'
+import TAG_IUI from './components/TAG_IUI'
+import TAG_DISMISSIBLE_IUI from './components/TAG_DISMISSIBLE_IUI'
+import TEXT_IUI from './components/TEXT_IUI'
+import TEXT_STYLED_IUI from './components/TEXT_STYLED_IUI'
+import TEXTAREA_IUI from './components/TEXTAREA_IUI'
+import TEXTINPUT_IUI from './components/TEXTINPUT_IUI'
 import VIEW_IUI from './components/VIEW_IUI'
 import VIEW_WITH_SHADOW_IUI from './components/VIEW_WITH_SHADOW_IUI'
 
@@ -572,6 +581,77 @@ const routes = [
   {
     path: 'SIMPLESELECT_MUI_X100',
     component: <SIMPLESELECT_MUI />,
+    count: 100
+  },
+  {
+    path: 'SPINNER_IUI',
+    component: <SPINNER_IUI />
+  },
+  {
+    path: 'SPINNER_IUI_X100',
+    component: <SPINNER_IUI />,
+    count: 100
+  },
+  {
+    path: 'TABLE_IUI',
+    component: <TABLE_IUI />
+  },
+  {
+    path: 'TABS_IUI',
+    component: <TABS_IUI />
+  },
+  {
+    path: 'TAG_IUI',
+    component: <TAG_IUI />
+  },
+  {
+    path: 'TAG_IUI_X100',
+    component: <TAG_IUI />,
+    count: 100
+  },
+  {
+    path: 'TAG_DISMISSIBLE_IUI',
+    component: <TAG_DISMISSIBLE_IUI />
+  },
+  {
+    path: 'TAG_DISMISSIBLE_IUI_X100',
+    component: <TAG_DISMISSIBLE_IUI />,
+    count: 100
+  },
+  {
+    path: 'TEXT_IUI',
+    component: <TEXT_IUI />
+  },
+  {
+    path: 'TEXT_IUI_X100',
+    component: <TEXT_IUI />,
+    count: 100
+  },
+  {
+    path: 'TEXT_STYLED_IUI',
+    component: <TEXT_STYLED_IUI />
+  },
+  {
+    path: 'TEXT_STYLED_IUI_X100',
+    component: <TEXT_STYLED_IUI />,
+    count: 100
+  },
+  {
+    path: 'TEXTAREA_IUI',
+    component: <TEXTAREA_IUI />
+  },
+  {
+    path: 'TEXTAREA_IUI_X100',
+    component: <TEXTAREA_IUI />,
+    count: 100
+  },
+  {
+    path: 'TEXTINPUT_IUI',
+    component: <TEXTINPUT_IUI />
+  },
+  {
+    path: 'TEXTINPUT_IUI_X100',
+    component: <TEXTINPUT_IUI />,
     count: 100
   },
   {
