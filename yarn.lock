@@ -1398,10 +1398,10 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@instructure/emotion@^8.0.0":
+"@instructure/emotion@8.0.0", "@instructure/emotion@^8.0.0":
   version "8.0.0"
-  resolved "https://instructure.jfrog.io/instructure/api/npm/npm-cache/@instructure/emotion/-/emotion-8.0.0.tgz#b8c4d4b36262afe3a6b9743f689720f195b647ca"
-  integrity sha1-uMTUs2Jir+OmuXQ/aJcg8ZW2R8o=
+  resolved "https://registry.yarnpkg.com/@instructure/emotion/-/emotion-8.0.0.tgz#b8c4d4b36262afe3a6b9743f689720f195b647ca"
+  integrity sha512-Y0l/LU9aK+IZjSlOpg4rXngGUzqsBIQGESZ/iCvvTbG9FInOWdhYRHda7kXRGR/UOeGcTVyeYZGA0eCZAikxOw==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@emotion/core" "^10.0.35"

@@ -8,12 +8,16 @@ import {
 } from "react-router-dom";
 import RenderComponent from './RenderComponent'
 
+import ACCESSIBLECONTENT_IUI from './components/ACCESSIBLECONTENT_IUI'
 import ALERT_IUI from './components/ALERT_IUI'
+import APPLYLOCALE_IUI from './components/APPLYLOCALE_IUI'
+import APPLYTEXTDIRECTION_IUI from './components/APPLYTEXTDIRECTION_IUI'
 import APPNAV_IUI from './components/APPNAV_IUI'
 import AVATAR_IUI from './components/AVATAR_IUI'
 import AVATAR_IMG_IUI from './components/AVATAR_IMG_IUI'
 import BADGE_IUI from './components/BADGE_IUI'
 import BADGE_WITH_COUNT_IUI from './components/BADGE_WITH_COUNT_IUI'
+import BASEBUTTON_IUI from './components/BASEBUTTON_IUI'
 import BILLBOARD_IUI from './components/BILLBOARD_IUI'
 import BREADCRUMB_IUI from './components/BREADCRUMB_IUI'
 import BUTTON_IUI from './components/BUTTON_IUI'
@@ -30,10 +34,15 @@ import CLOSEBUTTON_IUI from './components/CLOSEBUTTON_IUI'
 import CODEEDITOR_IUI from './components/CODEEDITOR_IUI'
 import CONDENSEDBUTTON_IUI from './components/CONDENSEDBUTTON_IUI'
 import CONTEXTVIEW_IUI from './components/CONTEXTVIEW_IUI'
+import DIALOG_IUI from './components/DIALOG_IUI'
 import DRAWERLAYOUT_IUI from './components/DRAWERLAYOUT_IUI'
+import EMOTIONTHEMEPROVIDER_IUI from './components/EMOTIONTHEMEPROVIDER_IUI'
+import EMOTIONTHEMEPROVIDER_WITH_TEXT_IUI from './components/EMOTIONTHEMEPROVIDER_WITH_TEXT_IUI'
+import EXPANDABLE_IUI from './components/EXPANDABLE_IUI'
 import FILEDROP_IUI from './components/FILEDROP_IUI'
 import FLEX_IUI from './components/FLEX_IUI'
 import FLEX_MUI from './components/FLEX_MUI'
+import FOCUSABLE_IUI from './components/FOCUSABLE_IUI'
 import FORMFIELD_IUI from './components/FORMFIELD_IUI'
 import FORMFIELDGROUP_IUI from './components/FORMFIELDGROUP_IUI'
 import GRID_IUI from './components/GRID_IUI'
@@ -107,6 +116,16 @@ import VIEW_WITH_SHADOW_IUI from './components/VIEW_WITH_SHADOW_IUI'
 
 const routes = [
   {
+    path: 'ACCESSIBLECONTENT_IUI',
+    component: <ACCESSIBLECONTENT_IUI />,
+    count: 1
+  },
+  {
+    path: 'ACCESSIBLECONTENT_IUI_X100',
+    component: <ACCESSIBLECONTENT_IUI />,
+    count: 100
+  },
+  {
     path: 'ALERT_IUI',
     component: <ALERT_IUI />,
     count: 1
@@ -117,9 +136,23 @@ const routes = [
     count: 100
   },
   {
+    path: 'APPLYLOCALE_IUI',
+    component: <APPLYLOCALE_IUI />,
+  },
+  {
     path: 'APPNAV_IUI',
     component: <APPNAV_IUI />,
     count: 1
+  },
+  {
+    path: 'APPLYTEXTDIRECTION_IUI',
+    component: <APPLYTEXTDIRECTION_IUI />,
+    count: 1
+  },
+  {
+    path: 'APPLYTEXTDIRECTION_IUI_X100',
+    component: <APPLYTEXTDIRECTION_IUI />,
+    count: 100
   },
   {
     path: 'AVATAR_IUI',
@@ -159,6 +192,16 @@ const routes = [
   {
     path: 'BADGE_WITH_COUNT_IUI_X100',
     component: <BADGE_WITH_COUNT_IUI />,
+    count: 100
+  },
+  {
+    path: 'BASEBUTTON_IUI',
+    component: <BASEBUTTON_IUI />,
+    count: 1
+  },
+  {
+    path: 'BASEBUTTON_IUI_X100',
+    component: <BASEBUTTON_IUI />,
     count: 100
   },
   {
@@ -281,8 +324,54 @@ const routes = [
     count: 100
   },
   {
+    path: 'DIALOG_IUI',
+    component: <DIALOG_IUI />,
+    count: 1
+  },
+  {
+    path: 'DIALOG_IUI_X100',
+    component: <DIALOG_IUI />,
+    count: 100
+  },
+  {
     path: 'DRAWERLAYOUT_IUI',
     component: <DRAWERLAYOUT_IUI />,
+  },
+  {
+    path: 'EMOTIONTHEMEPROVIDER_IUI',
+    component: <EMOTIONTHEMEPROVIDER_IUI />,
+  },
+  {
+    path: 'EMOTIONTHEMEPROVIDER_IUI_X100',
+    component: <EMOTIONTHEMEPROVIDER_IUI />,
+    count: 100
+  },
+  {
+    path: 'EMOTIONTHEMEPROVIDER_WITH_TEXT_IUI',
+    component: <EMOTIONTHEMEPROVIDER_WITH_TEXT_IUI />,
+  },
+  {
+    path: 'EMOTIONTHEMEPROVIDER_WITH_TEXT_IUI_X100',
+    component: <EMOTIONTHEMEPROVIDER_WITH_TEXT_IUI />,
+    count: 100
+  },
+  {
+    path: 'EXPANDABLE_IUI',
+    component: <EXPANDABLE_IUI />,
+  },
+  {
+    path: 'EXPANDABLE_IUI_X100',
+    component: <EXPANDABLE_IUI />,
+    count: 100
+  },
+  {
+    path: 'FOCUSABLE_IUI',
+    component: <FOCUSABLE_IUI />,
+  },
+  {
+    path: 'FOCUSABLE_IUI_X100',
+    component: <FOCUSABLE_IUI />,
+    count: 100
   },
   {
     path: 'FILEDROP_IUI',
