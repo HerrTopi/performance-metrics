@@ -53,11 +53,13 @@ import ICONBUTTON_IUI from './components/ICONBUTTON_IUI'
 import ICONBUTTON_MUI from './components/ICONBUTTON_MUI'
 import IMG_IUI from './components/IMG_IUI'
 import INLINELIST_IUI from './components/INLINELIST_IUI'
+import INLINESVG_IUI from './components/INLINESVG_IUI'
 import INPLACEEDIT_IUI from './components/INPLACEEDIT_IUI'
 import LINK_IUI from './components/LINK_IUI'
 import LINK_MUI from './components/LINK_MUI'
 import LINK_WITH_ICON_IUI from './components/LINK_WITH_ICON_IUI'
 import LIST_IUI from './components/LIST_IUI'
+import MASK_IUI from './components/MASK_IUI'
 import MENU_IUI from './components/MENU_IUI'
 import METRIC_IUI from './components/METRIC_IUI'
 import METRICGROUP_IUI from './components/METRICGROUP_IUI'
@@ -71,6 +73,9 @@ import PAGES_IUI from './components/PAGES_IUI'
 import PAGINATION_IUI from './components/PAGINATION_IUI'
 import PILL_IUI from './components/PILL_IUI'
 import POPOVER_IUI from './components/POPOVER_IUI'
+import PORTAL_IUI from './components/PORTAL_IUI'
+import POSITION_IUI from './components/POSITION_IUI'
+import PRESENTATIONCONTENT_IUI from './components/PRESENTATIONCONTENT_IUI'
 import PROGRESSBAR_IUI from './components/PROGRESSBAR_IUI'
 import PROGRESSCIRCLE_IUI from './components/PROGRESSCIRCLE_IUI'
 import RADIOINPUT_IUI from './components/RADIOINPUT_IUI'
@@ -80,11 +85,13 @@ import RADIOINPUTGROUP_TOGGLE_IUI from './components/RADIOINPUTGROUP_TOGGLE_IUI'
 import RANGEINPUT_IUI from './components/RANGEINPUT_IUI'
 import RATING_IUI from './components/RATING_IUI'
 import RESPONSIVE_IUI from './components/RESPONSIVE_IUI'
+import SCREENREADERCONTENT_IUI from './components/SCREENREADERCONTENT_IUI'
 import SELECT_IUI from './components/SELECT_IUI'
 import SELECTABLE_IUI from './components/SELECTABLE_IUI'
 import SIMPLESELECT_IUI from './components/SIMPLESELECT_IUI'
 import SIMPLESELECT_MUI from './components/SIMPLESELECT_MUI'
 import SPINNER_IUI from './components/SPINNER_IUI'
+import SVGICON_IUI from './components/SVGICON_IUI'
 import TABLE_IUI from './components/TABLE_IUI'
 import TABS_IUI from './components/TABS_IUI'
 import TAG_IUI from './components/TAG_IUI'
@@ -99,6 +106,7 @@ import TOGGLEDETAILS_IUI from './components/TOGGLEDETAILS_IUI'
 import TOGGLEDETAILS_FILLED_IUI from './components/TOGGLEDETAILS_FILLED_IUI'
 import TOGGLEGROUP_IUI from './components/TOGGLEGROUP_IUI'
 import TOOLTIP_IUI from './components/TOOLTIP_IUI'
+import TRANSITION_IUI from './components/TRANSITION_IUI'
 import TRAY_IUI from './components/TRAY_IUI'
 import TREEBROWSER_IUI from './components/TREEBROWSER_IUI'
 import TRUNCATETEXT_IUI from './components/TRUNCATETEXT_IUI'
@@ -483,6 +491,16 @@ const routes = [
     count: 100
   },
   {
+    path: 'INLINESVG_IUI',
+    component: <INLINESVG_IUI />,
+    count: 1
+  },
+  {
+    path: 'INLINESVG_IUI_X100',
+    component: <INLINESVG_IUI />,
+    count: 100
+  },
+  {
     path: 'INPLACEEDIT_IUI',
     component: <INPLACEEDIT_IUI />,
     count: 1
@@ -523,6 +541,16 @@ const routes = [
   {
     path: 'LIST_IUI_X100',
     component: <LIST_IUI />,
+    count: 100
+  },
+  {
+    path: 'MASK_IUI',
+    component: <MASK_IUI />,
+    count: 1
+  },
+  {
+    path: 'MASK_IUI_X100',
+    component: <MASK_IUI />,
     count: 100
   },
   {
@@ -595,6 +623,33 @@ const routes = [
     component: <POPOVER_IUI />,
   },
   {
+    path: 'PORTAL_IUI',
+    component: <PORTAL_IUI />,
+  },
+  {
+    path: 'PORTAL_IUI_X100',
+    component: <PORTAL_IUI />,
+    count: 100
+  },
+  {
+    path: 'POSITION_IUI',
+    component: <POSITION_IUI />,
+  },
+  {
+    path: 'POSITION_IUI_X100',
+    component: <POSITION_IUI />,
+    count: 100
+  },
+  {
+    path: 'PRESENTATIONCONTENT_IUI',
+    component: <PRESENTATIONCONTENT_IUI />,
+  },
+  {
+    path: 'PRESENTATIONCONTENT_IUI_X100',
+    component: <PRESENTATIONCONTENT_IUI />,
+    count: 100
+  },
+  {
     path: 'PROGRESSBAR_IUI',
     component: <PROGRESSBAR_IUI />,
   },
@@ -651,6 +706,15 @@ const routes = [
     count: 100
   },
   {
+    path: 'SCREENREADERCONTENT_IUI',
+    component: <SCREENREADERCONTENT_IUI />,
+  },
+  {
+    path: 'SCREENREADERCONTENT_IUI_X100',
+    component: <SCREENREADERCONTENT_IUI />,
+    count: 100
+  },
+  {
     path: 'SELECT_IUI',
     component: <SELECT_IUI />
   },
@@ -688,6 +752,15 @@ const routes = [
   {
     path: 'SPINNER_IUI_X100',
     component: <SPINNER_IUI />,
+    count: 100
+  },
+  {
+    path: 'SVGICON_IUI',
+    component: <SVGICON_IUI />
+  },
+  {
+    path: 'SVGICON_IUI_X100',
+    component: <SVGICON_IUI />,
     count: 100
   },
   {
@@ -799,6 +872,15 @@ const routes = [
   {
     path: 'TOOLTIP_IUI_X100',
     component: <TOOLTIP_IUI />,
+    count: 100
+  },
+  {
+    path: 'TRANSITION_IUI',
+    component: <TRANSITION_IUI />
+  },
+  {
+    path: 'TRANSITION_IUI_X100',
+    component: <TRANSITION_IUI />,
     count: 100
   },
   {
