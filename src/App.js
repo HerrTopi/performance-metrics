@@ -2,7 +2,7 @@ import Metric from './Metric'
 import Setup from './Setup'
 import Statistics from './Statistics'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
