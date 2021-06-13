@@ -29,6 +29,7 @@ const Setup = ({ routes }) => {
   }
 
   const refresh = () => {
+    console.log("refresh")
     window.location.reload()
   }
 
