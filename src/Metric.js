@@ -15,7 +15,7 @@ const Metric = ({ children, paths }) => {
     localStorage.setItem('lastTestedComponent', null)
 
     if (runTimes > newMetrics.length) {
-      history.go(0)
+      window.location.reload()
     } else if (next === 'next') {
       const currentPathIndex = paths.findIndex((path) => path === currentPath)
       const nextPath = currentPathIndex + 1 < paths.length ? paths[currentPathIndex + 1] : 'statistics'
@@ -35,12 +35,12 @@ const Metric = ({ children, paths }) => {
     ? (
       <div>
         <button onClick={backToHomepage}>To config</button>
-        <br/><br/>
+        <br /><br />
         {children}
       </div>
-      )
+    )
     : (
-      <div  style={{ paddingTop: "24px" }}>
+      <div style={{ paddingTop: "24px" }}>
         <Profiler id="metrics" onRender={onRender}>
           {children}
         </Profiler>
