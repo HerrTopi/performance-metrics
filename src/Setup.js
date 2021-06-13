@@ -28,19 +28,24 @@ const Setup = ({ routes }) => {
     history.push(`/${ref1.current.value}/freeze`)
   }
 
+  const refresh = () => {
+    window.location.reload()
+  }
+
   return (
     <div>
+      <button onClick={refresh}>Refresh me</button>&nbsp;
       <button onClick={runSelected}>Run test</button>&nbsp;
       <button onClick={runAll}>Run All</button>&nbsp;
       <button onClick={preview}>Preview</button>&nbsp;
       <br /><br />
         Target: &nbsp;
-        <select ref={ref1} value={selected} onChange={(e) => {setSelected(e.target.value)}}>
-          {routes.map(route =>
-            <option key={route.path} value={route.path}>{route.path}</option>
-          )}
-        </select>
-        <br /><br />
+      <select ref={ref1} value={selected} onChange={(e) => { setSelected(e.target.value) }}>
+        {routes.map(route =>
+          <option key={route.path} value={route.path}>{route.path}</option>
+        )}
+      </select>
+      <br /><br />
         Precision: <input defaultValue="10" ref={ref2} type="number"></input>
     </div>
   );
