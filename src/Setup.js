@@ -28,14 +28,8 @@ const Setup = ({ routes }) => {
     history.push(`/${ref1.current.value}/freeze`)
   }
 
-  const refresh = () => {
-    console.log("refresh")
-    window.location.reload()
-  }
-
   return (
     <div>
-      <button onClick={refresh}>Refresh me</button>&nbsp;
       <button onClick={runSelected}>Run test</button>&nbsp;
       <button onClick={runAll}>Run All</button>&nbsp;
       <button onClick={preview}>Preview</button>&nbsp;
