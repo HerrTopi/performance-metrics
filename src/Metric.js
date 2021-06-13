@@ -14,7 +14,9 @@ const Metric = ({ children, paths }) => {
     localStorage.setItem(currentPath, JSON.stringify(newMetrics))
     localStorage.setItem('lastTestedComponent', null)
 
+    console.log("outside", newMetrics)
     if (runTimes > newMetrics.length) {
+      console.log("in reload", newMetrics)
       window.location.reload()
     } else if (next === 'next') {
       const currentPathIndex = paths.findIndex((path) => path === currentPath)
