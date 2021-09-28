@@ -1,4 +1,4 @@
-import { EmotionThemeProvider } from '@instructure/ui'
+import { EmotionThemeProvider } from '@instructure/emotion'
 
 const EMOTIONTHEMEPROVIDER_IUI = () => {
     return (
